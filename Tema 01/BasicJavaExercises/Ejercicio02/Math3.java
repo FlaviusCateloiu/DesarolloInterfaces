@@ -2,6 +2,22 @@ import java.util.Arrays;
 
 public class Math3 implements Extremos {
 
+    public static double[] abs(double[] a) {
+        double[] b = new double[a.length];
+        for (int i = 0; i < a.length; i++) {
+            b[i] = (a[i] < 0) ? -a[i] : a[i];
+        }
+        return b;
+    }
+
+    public static int[] abs(int[] a) {
+        int[] b = new int[a.length];
+        for (int i = 0; i < a.length; i++) {
+            b[i] = (a[i] < 0) ? -a[i] : a[i];
+        }
+        return b;
+    }
+
     @Override
     public int min(int[] a) {
         Arrays.sort(a);
