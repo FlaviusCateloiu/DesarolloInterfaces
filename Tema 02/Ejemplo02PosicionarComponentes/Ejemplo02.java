@@ -11,6 +11,8 @@ public class Ejemplo02 extends JFrame {
         miBoton = new JButton("Aceptar");
         cerrarBoton = new JButton("Cerrar");
         setLayout(new GridLayout(3, 4));
+        miBoton.addActionListener(new EscuchadoraBoton());
+        cerrarBoton.addActionListener(new EscuchadoraBoton());
         add(miBoton);
         add(cerrarBoton);
         setSize(600, 300);
