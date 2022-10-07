@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Tema 01/BasicJavaExercises/Ejercicio03" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tema 01/BasicJavaExercises/Ejercicio04" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tema 02/PrimeraVentana" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tema 02/Ejemplo02VentanaConBoton" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
