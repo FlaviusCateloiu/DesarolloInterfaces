@@ -11,8 +11,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Tema 01/BasicJavaExercises/Ejercicio02" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tema 01/BasicJavaExercises/Ejercicio03" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tema 01/BasicJavaExercises/Ejercicio04" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Tema 02/PrimeraVentana" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tema 02/Ejemplo02PosicionarComponentes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tema 02/Ejercicio01PrimeraVentana" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tema 02/Ejercicio02VentanasComponentes/Ejercicio02_1" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
