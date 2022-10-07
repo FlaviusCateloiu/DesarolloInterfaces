@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Primera Ventana">
-      <change afterPath="$PROJECT_DIR$/Tema 02/Ejemplo02VentanaConBoton/Ejemplo02.java" afterDir="false" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Segunda Ventana">
+      <change afterPath="$PROJECT_DIR$/Tema 02/Ejemplo02VentanaConBoton/Gui02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 02/Ejemplo02VentanaConBoton/Gui03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesarolloInterfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesarolloInterfaces.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664902541815</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Segunda Ventana">
+      <created>1665152488868</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665152488868</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +131,7 @@
     <MESSAGE value="Corregido el ejercicio05" />
     <MESSAGE value="sdfsd" />
     <MESSAGE value="Primera Ventana" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primera Ventana" />
+    <MESSAGE value="Segunda Ventana" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segunda Ventana" />
   </component>
 </project>
