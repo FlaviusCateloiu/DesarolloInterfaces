@@ -13,6 +13,7 @@ public class Ejemplo02 extends JFrame {
         setLayout(new GridLayout(3, 4));
         miBoton.addActionListener(new EscuchadoraBoton());
         cerrarBoton.addActionListener(new EscuchadoraBoton());
+        addWindowListener(new EscuchadorVentanaAdaptado());
         add(miBoton);
         add(cerrarBoton);
         setSize(600, 300);
