@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Las clases de la agenda de Alejandro">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Modificación lo de alejandro">
       <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/Ejercicio5_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/Ejercicio5_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665760005272</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Modificación lo de alejandro">
+      <created>1665761440142</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665761440142</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +263,7 @@
     <MESSAGE value="La opcion e del apartado 4 del ejercicio 2 es esto." />
     <MESSAGE value="Finalizado el ejercicio con todos los apartados." />
     <MESSAGE value="Las clases de la agenda de Alejandro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Las clases de la agenda de Alejandro" />
+    <MESSAGE value="Modificación lo de alejandro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificación lo de alejandro" />
   </component>
 </project>

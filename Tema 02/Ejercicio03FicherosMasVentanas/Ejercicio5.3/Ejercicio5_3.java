@@ -11,7 +11,7 @@ public class Ejercicio5_3 {
     private JButton mostrarTodos;
     private JButton buscarPersona;
 
-    public Ejercicio5_3() {
+    public Ejercicio5_3(ArrayList<Persona> listaPersonas) {
         JFrame ventanaPrincipal = new JFrame("Ventana Principal");
         this.nuevaPersona = new JButton("Nueva Persona");
         this.mostrarTodos = new JButton("Mostrar Todos");
@@ -31,7 +31,7 @@ public class Ejercicio5_3 {
         Persona pers;
 
         cargarPersonas(listaPersonas);
-        Ejercicio5_3 ventanaPrincipal = new Ejercicio5_3();
+        Ejercicio5_3 ventanaPrincipal = new Ejercicio5_3(listaPersonas);
     }
 
     public static void guardarPersonas(ArrayList<Persona> listaPersonas) {
