@@ -11,24 +11,32 @@ public class Ejercicio02_4 {
     private JTextField celsiusJTextField;
     private JLabel farenheitJLabel;
     private JTextField farenheitJTextField;
-    private JButton convertir;
+    private JButton convertirCelFar;
+    private JButton convertirFarCel;
+    private JButton cerrarVentana;
 
     public Ejercicio02_4() {
         JFrame windowsExplain = new JFrame("Celsius to Farenheit");
         windowsExplain.setLayout(new FlowLayout(FlowLayout.LEFT, 10, 10));
         explainProgramJLabel = new JLabel("Este programa es para calcular Celsius a Farenheit y viceversa.", SwingConstants.CENTER);
         celsiusJLabel = new JLabel("Celsius:");
-        celsiusJTextField = new JTextField("00.00");
+        celsiusJTextField = new JTextField("00.00", 10);
         farenheitJLabel = new JLabel("Farenheit:");
-        farenheitJTextField = new JTextField("00.00");
-        convertir = new JButton("Convertir");
-        convertir.addActionListener(new CalcularFarenheit(celsiusJTextField, farenheitJTextField));
+        farenheitJTextField = new JTextField("00.00", 10);
+        convertirCelFar = new JButton("C to F");
+        convertirCelFar.addActionListener(new CalcularFarenheit(celsiusJTextField, farenheitJTextField));
+        convertirFarCel = new JButton("F to C");
+        convertirFarCel.addActionListener(new CalcularCelsius(celsiusJTextField, farenheitJTextField));
+        cerrarVentana = new JButton("Cerrar");
+        cerrarVentana.addActionListener(new CerrarVentana());
         windowsExplain.add(explainProgramJLabel);
         windowsExplain.add(celsiusJLabel);
         windowsExplain.add(celsiusJTextField);
         windowsExplain.add(farenheitJLabel);
         windowsExplain.add(farenheitJTextField);
-        windowsExplain.add(convertir);
+        windowsExplain.add(convertirCelFar);
+        windowsExplain.add(convertirFarCel);
+        windowsExplain.add(cerrarVentana);
         windowsExplain.setVisible(true);
         windowsExplain.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         windowsExplain.setLocationRelativeTo(null);
