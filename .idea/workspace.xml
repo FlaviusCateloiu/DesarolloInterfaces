@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Finalizado el ejercicio con todos los apartados.">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Las clases de la agenda de Alejandro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/Ejercicio5_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/Ejercicio5_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,14 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -199,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665755268562</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Las clases de la agenda de Alejandro">
+      <created>1665759965941</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665759965941</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Las clases de la agenda de Alejandro">
+      <created>1665760005272</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665760005272</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +256,7 @@
     <MESSAGE value="La opcion d del apartado 4 del ejercicio 2 es esto." />
     <MESSAGE value="La opcion e del apartado 4 del ejercicio 2 es esto." />
     <MESSAGE value="Finalizado el ejercicio con todos los apartados." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizado el ejercicio con todos los apartados." />
+    <MESSAGE value="Las clases de la agenda de Alejandro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Las clases de la agenda de Alejandro" />
   </component>
 </project>
