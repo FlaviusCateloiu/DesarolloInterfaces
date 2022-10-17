@@ -1,7 +1,9 @@
+import org.w3c.dom.ls.LSOutput;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.*;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -14,9 +16,6 @@ public class Entrega03FicherosVentanas {
 
     public Entrega03FicherosVentanas(ArrayList<Persona> listaPersonas) {
         JFrame ventanaPrincipal = new JFrame("Ventana Principal");
-        JFrame ventanaNuevaPersona = new JFrame("Ventana nueva persona");
-        JFrame ventanaMostrarTodos = new JFrame("Ventana mostrar todos");
-        JFrame ventanaBuscarPersona = new JFrame("Ventana buscar persona");
         this.nuevaPersonaPrincipal = new JButton("Nueva Persona");
         this.mostrarTodosPrincipal = new JButton("Mostrar Todos");
         this.buscarPersonaPrincipal = new JButton("Buscar Persona");
@@ -29,39 +28,33 @@ public class Entrega03FicherosVentanas {
         ventanaPrincipal.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         ventanaPrincipal.setVisible(true);
         ventanaPrincipal.add(this.nuevaPersonaPrincipal);
+
         this.nuevaPersonaPrincipal.addActionListener(e -> {
-            ventanaNuevaPersona.setVisible(true);
+            VentanaNuevaPersona ventanaNuevaPersona = new VentanaNuevaPersona("Ventana nueva persona", listaPersonas);
         });
         ventanaPrincipal.add(this.mostrarTodosPrincipal);
         this.mostrarTodosPrincipal.addActionListener(e -> {
-            ventanaMostrarTodos.setVisible(true);
+            if (listaPersonas.size() == 0) {
+                JOptionPane.showMessageDialog(null, "No hay personas en la agenda tienes que crear una.", "Error", JOptionPane.ERROR_MESSAGE);
+            } else {
+                VentanaMostrarTodos ventanaMostrarTodos = new VentanaMostrarTodos("Ventana mostrar todos", listaPersonas);
+            }
         });
         ventanaPrincipal.add(this.buscarPersonaPrincipal);
         this.buscarPersonaPrincipal.addActionListener(e -> {
-            ventanaBuscarPersona.setVisible(true);
+            if (listaPersonas.size() == 0) {
+                JOptionPane.showMessageDialog(null, "No hay personas en la agenda tienes que crear una.", "Error", JOptionPane.ERROR_MESSAGE);
+            } else {
+                VentanaBuscarPersona ventanaBuscarPersona = new VentanaBuscarPersona("Ventana buscar persona", listaPersonas);
+            }
         });
-        if (listaPersonas.size() == 0) {
-            this.mostrarTodosPrincipal.setEnabled(false);
-            this.buscarPersonaPrincipal.setEnabled(false);
-        }
-
-        //Ventana Nueva Persona.
-        ventanaNuevaPersona.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
-        ventanaNuevaPersona.setLocationRelativeTo(null);
-        ventanaNuevaPersona.setSize(500, 100);
-        ventanaNuevaPersona.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-
-        //Ventana Mostrar Todos.
-        ventanaMostrarTodos.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
-        ventanaMostrarTodos.setLocationRelativeTo(null);
-        ventanaMostrarTodos.setSize(500, 100);
-        ventanaMostrarTodos.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-
-        //Ventana Buscar Persona.
-        ventanaBuscarPersona.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
-        ventanaBuscarPersona.setLocationRelativeTo(null);
-        ventanaBuscarPersona.setSize(500, 100);
-        ventanaBuscarPersona.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+        ventanaPrincipal.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                guardarPersonas(listaPersonas);
+                super.windowClosing(e);
+            }
+        });
     }
     public static void main(String[] args) throws Exception {
         ArrayList<Persona> listaPersonas = new ArrayList<>();
@@ -70,8 +63,8 @@ public class Entrega03FicherosVentanas {
         Entrega03FicherosVentanas ventanaPrincipal = new Entrega03FicherosVentanas(listaPersonas);
     }
 
-    private static void guardarPersonas(ArrayList<Persona> listaPersonas) {
-        Path rutaArchivo = Path.of("Tema 02/Ejercicio03FicherosMasVentanas/EjercicVentana Principalio5.3/personas.dat");
+    public static void guardarPersonas(ArrayList<Persona> listaPersonas) {
+        Path rutaArchivo = Path.of("Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/personas.dat");
         try (FileOutputStream fos = new FileOutputStream(rutaArchivo.toFile());
              ObjectOutputStream oos = new ObjectOutputStream(fos)) {
             for (Persona pers : listaPersonas) {
@@ -82,7 +75,7 @@ public class Entrega03FicherosVentanas {
         }
     }
 
-    private static void cargarPersonas(ArrayList<Persona> listaPersonas) {
+    public static void cargarPersonas(ArrayList<Persona> listaPersonas) {
         Path rutaArchivo = Path.of("Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/personas.dat");
         Persona pers;
         try (FileInputStream fis = new FileInputStream(rutaArchivo.toFile());
@@ -97,7 +90,7 @@ public class Entrega03FicherosVentanas {
         }
     }
 
-    private static Persona buscarPersona(String nombrePersonaBuscar, ArrayList<Persona> listaPersonas) {
+    public static Persona buscarPersona(String nombrePersonaBuscar, ArrayList<Persona> listaPersonas) {
         for (Persona persona : listaPersonas) {
             if (persona.getNombre().equalsIgnoreCase(nombrePersonaBuscar)) {
                 return persona;
@@ -107,7 +100,7 @@ public class Entrega03FicherosVentanas {
         return null;
     }
 
-    private static void borrarPersona(ArrayList<Persona> listaPersonas, String nombreBorrar) {
+    public static void borrarPersona(ArrayList<Persona> listaPersonas, String nombreBorrar) {
         listaPersonas.removeIf(p -> p.getNombre().equalsIgnoreCase(nombreBorrar));
     }
 }

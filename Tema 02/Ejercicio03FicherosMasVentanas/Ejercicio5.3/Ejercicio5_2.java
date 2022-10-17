@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Ejercicio5_2 {
     public static void main(String[] args) {
-        Path rutaArchivo = Path.of("Unidad1/Ejercicio05Serializacion/Ejercicio5.1/personas.dat");
+        Path rutaArchivo = Path.of("Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/personas.dat");
         ArrayList<Persona> listaPersonas = new ArrayList<>();
         Persona pers;
 
