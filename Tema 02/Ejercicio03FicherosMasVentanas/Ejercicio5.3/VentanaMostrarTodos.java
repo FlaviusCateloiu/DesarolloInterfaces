@@ -21,11 +21,14 @@ public class VentanaMostrarTodos extends JFrame {
         super(titulo);
         this.listaPersonas = listaPersonas;
         this.nomPersLab = new JLabel("Nombre: ");
+        this.nomPersTF = new JTextField("", 10);
         this.emailPersL = new JLabel("Email: ");
+        this.emailPersTF = new JTextField("", 20);
         this.fechaNacL = new JLabel("Fecha Nacimiento: ");
-        this.numPersona = new JLabel("");
+        this.fechaNacTF = new JTextField("", 20);
         this.primeroB = new JButton("<<Primero");
         this.anteriorB = new JButton("<Anterior");
+        this.numPersona = new JLabel("");
         this.siguienteB = new JButton("Siguiente>");
         this.ultimoB = new JButton("Ultimo>>");
         this.volverB = new JButton("Volver");
@@ -105,8 +108,8 @@ public class VentanaMostrarTodos extends JFrame {
     }
 
     public void mostrarPersona() {
-        nomPersTF = new JTextField(listaPersonas.get(positionLista).getNombre(), 10);
-        emailPersTF = new JTextField(listaPersonas.get(positionLista).getEmail(), 20);
-        fechaNacTF = new JTextField(listaPersonas.get(positionLista).getAnyoNacimiento().toString(), 20);
+        nomPersTF.setText(listaPersonas.get(positionLista).getNombre());
+        emailPersTF.setText(listaPersonas.get(positionLista).getEmail());
+        fechaNacTF.setText(listaPersonas.get(positionLista).getAnyoNacimiento().toString());
     }
 }
