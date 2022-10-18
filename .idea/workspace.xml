@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Falta las ventanas mostrar todo y buscar.">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Mejorando la ventana mostrar todos.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/VentanaMostrarTodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/VentanaMostrarTodos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/personas.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/personas.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666032024068</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Mejorando la ventana mostrar todos.">
+      <created>1666106164807</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1666106164807</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +295,7 @@
     <MESSAGE value="Modificación lo de alejandro" />
     <MESSAGE value="Falta todos jajvajav" />
     <MESSAGE value="Falta las ventanas mostrar todo y buscar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Falta las ventanas mostrar todo y buscar." />
+    <MESSAGE value="Mejorando la ventana mostrar todos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mejorando la ventana mostrar todos." />
   </component>
 </project>
