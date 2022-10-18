@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Me falta mostrar todos y buscar persona.">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Mostrar a todos las personas de la agenda ya a termindo.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/VentanaMostrarTodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/VentanaMostrarTodos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/VentanaBuscarPersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/VentanaBuscarPersona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666107815942</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Mostrar a todos las personas de la agenda ya a termindo.">
+      <created>1666109688765</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1666109688765</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +286,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Falta el ejercicio02 de los ejercicios." />
     <MESSAGE value="Creacion del ejercicio 02 falta hacer la implementacion de un metodo de la Clase Math" />
     <MESSAGE value="Ejercicio dos en proceso" />
     <MESSAGE value="Corregido el ejercicio05" />
@@ -304,6 +310,7 @@
     <MESSAGE value="Falta las ventanas mostrar todo y buscar." />
     <MESSAGE value="Mejorando la ventana mostrar todos." />
     <MESSAGE value="Me falta mostrar todos y buscar persona." />
-    <option name="LAST_COMMIT_MESSAGE" value="Me falta mostrar todos y buscar persona." />
+    <MESSAGE value="Mostrar a todos las personas de la agenda ya a termindo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostrar a todos las personas de la agenda ya a termindo." />
   </component>
 </project>
