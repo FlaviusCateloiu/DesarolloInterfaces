@@ -3,6 +3,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class VentanaMostrarTodos extends JFrame {
+    private int positionLista = 0;
     ArrayList<Persona> listaPersonas;
     private JLabel nomPersLab;
     private JTextField nomPersTF;
@@ -19,16 +20,22 @@ public class VentanaMostrarTodos extends JFrame {
         super(titulo);
         this.listaPersonas = listaPersonas;
         this.nomPersLab = new JLabel("Nombre: ");
-        this.nomPersTF = new JTextField("", 10);
         this.emailPersL = new JLabel("Email: ");
-        this.emailPersTF = new JTextField("", 20);
         this.fechaNacL = new JLabel("Fecha Nacimiento: ");
-        this.fechaNacTF = new JTextField("", 10);
         this.primeroB = new JButton("<<Primero");
         this.anteriorB = new JButton("<Anterior");
         this.siguienteB = new JButton("Siguiente>");
         this.ultimoB = new JButton("Ultimo>>");
         this.volverB = new JButton("Volver");
+
+
+        this.nomPersTF = new JTextField(listaPersonas.get(positionLista).getNombre(), 10);
+        this.emailPersTF = new JTextField(listaPersonas.get(positionLista).getEmail(), 20);
+        this.fechaNacTF = new JTextField(listaPersonas.get(positionLista).getAnyoNacimiento().toString(), 20);
+
+        this.nomPersTF.setEditable(false);
+        this.emailPersTF.setEditable(false);
+        this.fechaNacTF.setEditable(false);
 
         add(nomPersLab);
         add(nomPersTF);
