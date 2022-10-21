@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Terminado todo.">
-      <change afterPath="$PROJECT_DIR$/Tema 02/ComentarUnPrograma/pp.java" afterDir="false" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Terminado de comentar.">
+      <change afterPath="$PROJECT_DIR$/Tema 02/Ejercicio05Formulario/PrincipalWindowEx05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesarolloInterfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesarolloInterfaces.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/Ejercicio5_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/Ejercicio5_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/personas.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3/personas.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666110929692</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Terminado de comentar.">
+      <created>1666361144212</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1666361144212</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +301,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicio dos en proceso" />
     <MESSAGE value="Corregido el ejercicio05" />
     <MESSAGE value="sdfsd" />
     <MESSAGE value="Primera Ventana" />
@@ -322,6 +325,7 @@
     <MESSAGE value="Me falta mostrar todos y buscar persona." />
     <MESSAGE value="Mostrar a todos las personas de la agenda ya a termindo." />
     <MESSAGE value="Terminado todo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminado todo." />
+    <MESSAGE value="Terminado de comentar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado de comentar." />
   </component>
 </project>
