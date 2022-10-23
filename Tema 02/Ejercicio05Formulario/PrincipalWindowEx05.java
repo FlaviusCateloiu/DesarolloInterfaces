@@ -35,8 +35,8 @@ public class PrincipalWindowEx05 extends JFrame {
     private JTextField JTFNumFederador;
     private JLabel JLNumFederadorError;
     private JLabel JLSexo;
-    private JCheckBox JCBSexoM;
-    private JCheckBox JCBSexoF;
+    private JRadioButton JCBSexoM;
+    private JRadioButton JCBSexoF;
 
     public PrincipalWindowEx05() {
         super("Formulario");
@@ -130,6 +130,30 @@ public class PrincipalWindowEx05 extends JFrame {
         JLCodigoPostalError.setForeground(Color.RED);
         JLCodigoPostalError.setBounds(30, 150, 250, 20);
         add(JLCodigoPostalError);
+
+        JLCiudad = new JLabel("*Ciudad:");
+        JLCiudad.setBounds(260, 130, 100, 20);
+        add(JLCiudad);
+        JTFCiudad = new JTextField("");
+        JTFCiudad.setBounds(310, 130, 100, 20);
+        add(JTFCiudad);
+        JLCiudadError = new JLabel("Error no has introducido una ciudad.");
+        JLCiudadError.setForeground(Color.RED);
+        JLCiudadError.setBounds(260, 150, 250, 20);
+        add(JLCiudadError);
+
+        JLNumFederador = new JLabel("*Numero Federador:");
+        JLNumFederador.setBounds(490, 130, 120, 20);
+        add(JLNumFederador);
+        JTFNumFederador = new JTextField("");
+        JTFNumFederador.setBounds(610, 130, 50, 20);
+        add(JTFNumFederador);
+        JLNumFederadorError = new JLabel("Error tienes que introducir 6 numeros.");
+        JLNumFederadorError.setForeground(Color.RED);
+        JLNumFederadorError.setBounds(490, 150, 250, 20);
+        add(JLNumFederadorError);
+
+
 
         setLayout(null);
         setResizable(false);
