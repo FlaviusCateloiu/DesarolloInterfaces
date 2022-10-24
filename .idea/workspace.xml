@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Empezando el ejercicio.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio05Formulario/PrincipalWindowEx05.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 02/Ejercicio05Formulario/PrincipalWindowEx05.java" afterDir="false" />
     </list>
@@ -39,11 +39,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -65,9 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664543664747</updated>
-      <workItem from="1666522892068" duration="1811000" />
-      <workItem from="1666534830179" duration="1049000" />
-      <workItem from="1666590347919" duration="2202000" />
     </task>
     <task id="LOCAL-00001" summary="Falta el ejercicio02 de los ejercicios.">
       <created>1664550407908</created>
@@ -307,25 +299,8 @@
       <option name="project" value="LOCAL" />
       <updated>1666366849793</updated>
     </task>
-    <task id="LOCAL-00035" summary="Sigo los componentes de la ventana.">
-      <created>1666524709405</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1666524709405</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Sigo los componentes de la ventana.">
-      <created>1666535874769</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1666535874769</updated>
-    </task>
-    <option name="localTasksCounter" value="37" />
+    <option name="localTasksCounter" value="35" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -339,6 +314,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="sdfsd" />
     <MESSAGE value="Primera Ventana" />
     <MESSAGE value="Segunda Ventana" />
     <MESSAGE value="Segunda Ventana para mover componentes o posicionar." />
@@ -363,7 +339,6 @@
     <MESSAGE value="Terminado todo." />
     <MESSAGE value="Terminado de comentar." />
     <MESSAGE value="Empezando el ejercicio." />
-    <MESSAGE value="Sigo los componentes de la ventana." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sigo los componentes de la ventana." />
+    <option name="LAST_COMMIT_MESSAGE" value="Empezando el ejercicio." />
   </component>
 </project>

@@ -3,228 +3,379 @@ import java.awt.*;
 
 public class PrincipalWindowEx05 extends JFrame {
 
-    private JLabel JLNombre;
-    private JTextField JTFNombre;
-    private JLabel JLNombreError;
-    private JLabel JLApellidos;
-    private JTextField JTFApellidos;
-    private JLabel JLApellidosError;
-    private JLabel JLDni;
-    private JTextField JTFDni;
-    private JLabel JLDniError;
-    private JLabel JLTelefono;
-    private JTextField JTFTelefono;
-    private JLabel JLTelefonoError;
-    private JLabel JLCalle;
-    private JTextField JTFCalle;
-    private JLabel JLCalleError;
-    private JLabel JLPortal;
-    private JTextField JTFPortal;
-    private JLabel JLPortalError;
-    private JLabel JLPiso;
-    private JTextField JTFPiso;
-    private JLabel JLPuerta;
-    private JTextField JTFPuerta;
-    private JLabel JLCodigoPostal;
-    private JTextField JTFCodigoPostal;
-    private JLabel JLCodigoPostalError;
-    private JLabel JLCiudad;
-    private JTextField JTFCiudad;
-    private JLabel JLCiudadError;
-    private JLabel JLNumFederador;
-    private JTextField JTFNumFederador;
-    private JLabel JLNumFederadorError;
-    private JLabel JLSexo;
+    private JLabel jLNombre;
+    private JTextField jTFNombre;
+    private JLabel jLNombreError;
+    private JLabel jLApellidos;
+    private JTextField jTFApellidos;
+    private JLabel jLApellidosError;
+    private JLabel jLDni;
+    private JTextField jTFDni;
+    private JLabel jLDniError;
+    private JLabel jLTelefono;
+    private JTextField jTFTelefono;
+    private JLabel jLTelefonoError;
+    private JLabel jLCalle;
+    private JTextField jTFCalle;
+    private JLabel jLCalleError;
+    private JLabel jLPortal;
+    private JTextField jTFPortal;
+    private JLabel jLPortalError;
+    private JLabel jLPiso;
+    private JTextField jTFPiso;
+    private JLabel jLPuerta;
+    private JTextField jTFPuerta;
+    private JLabel jLCodigoPostal;
+    private JTextField jTFCodigoPostal;
+    private JLabel jLCodigoPostalError;
+    private JLabel jLCiudad;
+    private JTextField jTFCiudad;
+    private JLabel jLCiudadError;
+    private JLabel jLNumFederador;
+    private JTextField jTFNumFederador;
+    private JLabel jLNumFederadorError;
+    private JLabel jLSexo;
     private ButtonGroup bGSexo;
-    private JRadioButton JRBSexoM;
-    private JRadioButton JRBSexoF;
-    private JLabel JLSexoError;
-    private JLabel JLPassword;
-    private JPasswordField JTFPassword;
-    private JLabel JLPasswordError;
-    private JLabel JLConfirmPassword;
-    private JPasswordField JTFConfirmPassword;
-    private JLabel JLConfirmPasswordError;
-    private JComboBox JCBTipoComp;
-    private JComboBox JCBTipoArm;
+    private JRadioButton jRBSexoM;
+    private JRadioButton jRBSexoF;
+    private JLabel jLSexoError;
+    private JLabel jLPassword;
+    private JPasswordField jTFPassword;
+    private JLabel jLPasswordError;
+    private JLabel jLConfirmPassword;
+    private JPasswordField jTFConfirmPassword;
+    private JLabel jLConfirmPasswordError;
+    private JComboBox jCBTipoComp;
+    private JComboBox jCBTipoArm;
+    private JCheckBox jCheckBCompIndiv;
+    private JCheckBox jCheckBCompEquip;
+    private JLabel jLErrorTipoComp;
+    private JButton jButGuardar;
+    private JButton jButSalir;
 
     public PrincipalWindowEx05() {
         super("Formulario");
-        JLNombre = new JLabel("*Nombre:");
-        JLNombre.setBounds(30, 30, 100, 20);
-        add(JLNombre);
-        JTFNombre = new JTextField("");
-        JTFNombre.setBounds(90, 30, 150, 20);
-        add(JTFNombre);
-        JLNombreError = new JLabel("Error tienes que introducir el nombre de forma correcta.");
-        JLNombreError.setForeground(Color.RED);
-        JLNombreError.setBounds(30, 50, 340, 20);
-        add(JLNombreError);
+        jLNombre = new JLabel("*Nombre:");
+        jLNombre.setBounds(30, 30, 100, 20);
+        add(jLNombre);
+        jTFNombre = new JTextField("");
+        jTFNombre.setBounds(100, 30, 150, 20);
+        add(jTFNombre);
+        jLNombreError = new JLabel("");
+        jLNombreError.setForeground(Color.RED);
+        jLNombreError.setBounds(30, 50, 340, 20);
+        add(jLNombreError);
 
-        JLApellidos = new JLabel("*Apellidos:");
-        JLApellidos.setBounds(380, 30, 100, 20);
-        add(JLApellidos);
-        JTFApellidos = new JTextField("");
-        JTFApellidos.setBounds(445, 30, 200, 20);
-        add(JTFApellidos);
-        JLApellidosError = new JLabel("Error tienes que introducir los apellidos de forma correcta.");
-        JLApellidosError.setForeground(Color.RED);
-        JLApellidosError.setBounds(380, 50, 400, 20);
-        add(JLApellidosError);
+        jLApellidos = new JLabel("*Apellidos:");
+        jLApellidos.setBounds(380, 30, 100, 20);
+        add(jLApellidos);
+        jTFApellidos = new JTextField("");
+        jTFApellidos.setBounds(455, 30, 200, 20);
+        add(jTFApellidos);
+        jLApellidosError = new JLabel("");
+        jLApellidosError.setForeground(Color.RED);
+        jLApellidosError.setBounds(380, 50, 400, 20);
+        add(jLApellidosError);
 
-        JLDni = new JLabel("*DNI:");
-        JLDni.setBounds(750, 30, 50, 20);
-        add(JLDni);
-        JTFDni = new JTextField("");
-        JTFDni.setBounds(785, 30, 80, 20);
-        add(JTFDni);
-        JLDniError = new JLabel("Error el tienes que introducir el dni con formato correcto.");
-        JLDniError.setForeground(Color.RED);
-        JLDniError.setBounds(750, 50, 400, 20);
-        add(JLDniError);
+        jLDni = new JLabel("*DNI:");
+        jLDni.setBounds(750, 30, 50, 20);
+        add(jLDni);
+        jTFDni = new JTextField("");
+        jTFDni.setBounds(795, 30, 80, 20);
+        add(jTFDni);
+        jLDniError = new JLabel("");
+        jLDniError.setForeground(Color.RED);
+        jLDniError.setBounds(750, 50, 400, 20);
+        add(jLDniError);
 
-        JLTelefono = new JLabel("*Telefono:");
-        JLTelefono.setBounds(30, 80, 100, 20);
-        add(JLTelefono);
-        JTFTelefono = new JTextField("");
-        JTFTelefono.setBounds(90, 80, 80, 20);
-        add(JTFTelefono);
-        JLTelefonoError = new JLabel("Error el telefono es maximo de 9 numeros.");
-        JLTelefonoError.setForeground(Color.RED);
-        JLTelefonoError.setBounds(30, 100, 250, 20);
-        add(JLTelefonoError);
+        jLTelefono = new JLabel("*Telefono:");
+        jLTelefono.setBounds(30, 80, 100, 20);
+        add(jLTelefono);
+        jTFTelefono = new JTextField("");
+        jTFTelefono.setBounds(100, 80, 80, 20);
+        add(jTFTelefono);
+        jLTelefonoError = new JLabel("");
+        jLTelefonoError.setForeground(Color.RED);
+        jLTelefonoError.setBounds(30, 100, 260, 20);
+        add(jLTelefonoError);
 
-        JLCalle = new JLabel("*Calle:");
-        JLCalle.setBounds(300, 80, 100, 20);
-        add(JLCalle);
-        JTFCalle = new JTextField("");
-        JTFCalle.setBounds(340, 80, 200, 20);
-        add(JTFCalle);
-        JLCalleError = new JLabel("Error tienes que introducir la calle.");
-        JLCalleError.setForeground(Color.RED);
-        JLCalleError.setBounds(300, 100, 250, 20);
-        add(JLCalleError);
+        jLCalle = new JLabel("*Calle:");
+        jLCalle.setBounds(300, 80, 100, 20);
+        add(jLCalle);
+        jTFCalle = new JTextField("");
+        jTFCalle.setBounds(350, 80, 200, 20);
+        add(jTFCalle);
+        jLCalleError = new JLabel("");
+        jLCalleError.setForeground(Color.RED);
+        jLCalleError.setBounds(300, 100, 250, 20);
+        add(jLCalleError);
 
-        JLPortal = new JLabel("*Numero Portal:");
-        JLPortal.setBounds(570, 80, 100, 20);
-        add(JLPortal);
-        JTFPortal = new JTextField("");
-        JTFPortal.setBounds(665, 80, 35, 20);
-        add(JTFPortal);
-        JLPortalError = new JLabel("Error tienes que introducir el portal.");
-        JLPortalError.setForeground(Color.RED);
-        JLPortalError.setBounds(570, 100, 250, 20);
-        add(JLPortalError);
+        jLPortal = new JLabel("*Numero Portal:");
+        jLPortal.setBounds(570, 80, 100, 20);
+        add(jLPortal);
+        jTFPortal = new JTextField("");
+        jTFPortal.setBounds(675, 80, 35, 20);
+        add(jTFPortal);
+        jLPortalError = new JLabel("");
+        jLPortalError.setForeground(Color.RED);
+        jLPortalError.setBounds(570, 100, 250, 20);
+        add(jLPortalError);
 
-        JLPiso = new JLabel("Numero Piso:");
-        JLPiso.setBounds(790, 80, 100, 20);
-        add(JLPiso);
-        JTFPiso = new JTextField("");
-        JTFPiso.setBounds(875, 80, 30, 20);
-        add(JTFPiso);
+        jLPiso = new JLabel("Numero Piso:");
+        jLPiso.setBounds(790, 80, 100, 20);
+        add(jLPiso);
+        jTFPiso = new JTextField("");
+        jTFPiso.setBounds(885, 80, 30, 20);
+        add(jTFPiso);
 
-        JLPuerta = new JLabel("Puerta:");
-        JLPuerta.setBounds(930, 80, 100, 20);
-        add(JLPuerta);
-        JTFPuerta = new JTextField("");
-        JTFPuerta.setBounds(980, 80, 30, 20);
-        add(JTFPuerta);
+        jLPuerta = new JLabel("Puerta:");
+        jLPuerta.setBounds(930, 80, 100, 20);
+        add(jLPuerta);
+        jTFPuerta = new JTextField("");
+        jTFPuerta.setBounds(980, 80, 30, 20);
+        add(jTFPuerta);
 
-        JLCodigoPostal = new JLabel("*Codigo Postal:");
-        JLCodigoPostal.setBounds(30, 130, 100, 20);
-        add(JLCodigoPostal);
-        JTFCodigoPostal = new JTextField("");
-        JTFCodigoPostal.setBounds(120, 130, 50, 20);
-        add(JTFCodigoPostal);
-        JLCodigoPostalError = new JLabel("Error tienes que introducir el portal.");
-        JLCodigoPostalError.setForeground(Color.RED);
-        JLCodigoPostalError.setBounds(30, 150, 250, 20);
-        add(JLCodigoPostalError);
+        jLCodigoPostal = new JLabel("*Codigo Postal:");
+        jLCodigoPostal.setBounds(30, 130, 100, 20);
+        add(jLCodigoPostal);
+        jTFCodigoPostal = new JTextField("");
+        jTFCodigoPostal.setBounds(130, 130, 50, 20);
+        add(jTFCodigoPostal);
+        jLCodigoPostalError = new JLabel("");
+        jLCodigoPostalError.setForeground(Color.RED);
+        jLCodigoPostalError.setBounds(30, 150, 250, 20);
+        add(jLCodigoPostalError);
 
-        JLCiudad = new JLabel("*Ciudad:");
-        JLCiudad.setBounds(260, 130, 100, 20);
-        add(JLCiudad);
-        JTFCiudad = new JTextField("");
-        JTFCiudad.setBounds(310, 130, 100, 20);
-        add(JTFCiudad);
-        JLCiudadError = new JLabel("Error no has introducido una ciudad.");
-        JLCiudadError.setForeground(Color.RED);
-        JLCiudadError.setBounds(260, 150, 250, 20);
-        add(JLCiudadError);
+        jLCiudad = new JLabel("*Ciudad:");
+        jLCiudad.setBounds(260, 130, 100, 20);
+        add(jLCiudad);
+        jTFCiudad = new JTextField("");
+        jTFCiudad.setBounds(320, 130, 100, 20);
+        add(jTFCiudad);
+        jLCiudadError = new JLabel("");
+        jLCiudadError.setForeground(Color.RED);
+        jLCiudadError.setBounds(260, 150, 250, 20);
+        add(jLCiudadError);
 
-        JLNumFederador = new JLabel("*Numero Federador:");
-        JLNumFederador.setBounds(490, 130, 120, 20);
-        add(JLNumFederador);
-        JTFNumFederador = new JTextField("");
-        JTFNumFederador.setBounds(610, 130, 50, 20);
-        add(JTFNumFederador);
-        JLNumFederadorError = new JLabel("Error tienes que introducir 6 numeros.");
-        JLNumFederadorError.setForeground(Color.RED);
-        JLNumFederadorError.setBounds(490, 150, 250, 20);
-        add(JLNumFederadorError);
+        jLNumFederador = new JLabel("*Numero Federador:");
+        jLNumFederador.setBounds(490, 130, 140, 20);
+        add(jLNumFederador);
+        jTFNumFederador = new JTextField("");
+        jTFNumFederador.setBounds(620, 130, 50, 20);
+        add(jTFNumFederador);
+        jLNumFederadorError = new JLabel("");
+        jLNumFederadorError.setForeground(Color.RED);
+        jLNumFederadorError.setBounds(490, 150, 250, 20);
+        add(jLNumFederadorError);
 
-        JLSexo = new JLabel("*Sexo:");
-        JLSexo.setBounds(730, 130, 40, 20);
-        add(JLSexo);
+        jLSexo = new JLabel("*Sexo:");
+        jLSexo.setBounds(730, 130, 40, 20);
+        add(jLSexo);
         bGSexo = new ButtonGroup();
-        JRBSexoF = new JRadioButton("F");
-        bGSexo.add(JRBSexoF);
-        JRBSexoF.setBounds(770, 130, 40, 20);
-        add(JRBSexoF);
-        JRBSexoM = new JRadioButton("M");
-        bGSexo.add(JRBSexoM);
-        JRBSexoM.setBounds(810, 130, 40, 20);
-        add(JRBSexoM);
-        JLSexoError = new JLabel("Error tienes que seleccionar un sexo.");
-        JLSexoError.setForeground(Color.RED);
-        JLSexoError.setBounds(730, 150, 250, 20);
-        add(JLSexoError);
+        jRBSexoF = new JRadioButton("F");
+        bGSexo.add(jRBSexoF);
+        jRBSexoF.setBounds(770, 130, 40, 20);
+        add(jRBSexoF);
+        jRBSexoM = new JRadioButton("M");
+        bGSexo.add(jRBSexoM);
+        jRBSexoM.setBounds(810, 130, 40, 20);
+        add(jRBSexoM);
+        jLSexoError = new JLabel("");
+        jLSexoError.setForeground(Color.RED);
+        jLSexoError.setBounds(730, 150, 250, 20);
+        add(jLSexoError);
 
-        JLPassword = new JLabel("*Contraseña:");
-        JLPassword.setBounds(30, 180, 80, 20);
-        add(JLPassword);
-        JTFPassword = new JPasswordField("");
-        JTFPassword.setBounds(110, 180, 120, 20);
-        add(JTFPassword);
-        JLPasswordError = new JLabel("Error tienes que introducir una contraseña.");
-        JLPasswordError.setForeground(Color.RED);
-        JLPasswordError.setBounds(30, 200, 250, 20);
-        add(JLPasswordError);
+        jLPassword = new JLabel("*Contraseña:");
+        jLPassword.setBounds(30, 180, 80, 20);
+        add(jLPassword);
+        jTFPassword = new JPasswordField("");
+        jTFPassword.setBounds(120, 180, 120, 20);
+        add(jTFPassword);
+        jLPasswordError = new JLabel("");
+        jLPasswordError.setForeground(Color.RED);
+        jLPasswordError.setBounds(30, 200, 270, 20);
+        add(jLPasswordError);
 
-        JLConfirmPassword = new JLabel("*Confirmar Contraseña:");
-        JLConfirmPassword.setBounds(300, 180, 140, 20);
-        add(JLConfirmPassword);
-        JTFConfirmPassword = new JPasswordField("");
-        JTFConfirmPassword.setBounds(440, 180, 120, 20);
-        add(JTFConfirmPassword);
-        JLConfirmPasswordError = new JLabel("Error la contraseña a confirmar tiene que ser igual a la contraseña.");
-        JLConfirmPasswordError.setForeground(Color.RED);
-        JLConfirmPasswordError.setBounds(300, 200, 380, 20);
-        add(JLConfirmPasswordError);
+        jLConfirmPassword = new JLabel("*Confirmar Contraseña:");
+        jLConfirmPassword.setBounds(300, 180, 150, 20);
+        add(jLConfirmPassword);
+        jTFConfirmPassword = new JPasswordField("");
+        jTFConfirmPassword.setBounds(450, 180, 120, 20);
+        add(jTFConfirmPassword);
+        jLConfirmPasswordError = new JLabel("");
+        jLConfirmPasswordError.setForeground(Color.RED);
+        jLConfirmPasswordError.setBounds(300, 200, 400, 20);
+        add(jLConfirmPasswordError);
 
-        JCBTipoComp = new JComboBox();
-        JCBTipoComp.addItem("Tirador");
-        JCBTipoComp.addItem("Arbitro");
-        JCBTipoComp.addItem("Entrenador");
-        JCBTipoComp.addItem("Director");
-        JCBTipoComp.setBounds(740, 180, 100, 20);
-        add(JCBTipoComp);
+        jCBTipoComp = new JComboBox();
+        jCBTipoComp.addItem("Tirador");
+        jCBTipoComp.addItem("Arbitro");
+        jCBTipoComp.addItem("Entrenador");
+        jCBTipoComp.addItem("Director");
+        jCBTipoComp.setBounds(740, 180, 100, 20);
+        add(jCBTipoComp);
 
-        JCBTipoArm = new JComboBox();
-        JCBTipoArm.addItem("Sable");
-        JCBTipoArm.addItem("Espada");
-        JCBTipoArm.addItem("Florete");
-        JCBTipoArm.setBounds(900, 180, 100, 20);
-        add(JCBTipoArm);
+        jCBTipoArm = new JComboBox();
+        jCBTipoArm.addItem("Sable");
+        jCBTipoArm.addItem("Espada");
+        jCBTipoArm.addItem("Florete");
+        jCBTipoArm.setBounds(900, 180, 100, 20);
+        add(jCBTipoArm);
+
+        jCheckBCompIndiv = new JCheckBox("Competición Individual");
+        jCheckBCompIndiv.setSelected(true);
+        jCheckBCompIndiv.setBounds(30, 230, 180, 20);
+        add(jCheckBCompIndiv);
+
+        jCheckBCompEquip = new JCheckBox("Competición Equipos");
+        jCheckBCompEquip.setBounds(220, 230, 180, 20);
+        add(jCheckBCompEquip);
+
+        jLErrorTipoComp = new JLabel("");
+        jLErrorTipoComp.setForeground(Color.RED);
+        jLErrorTipoComp.setBounds(30, 250, 300, 20);
+        add(jLErrorTipoComp);
+
+        jButGuardar = new JButton("Guardar");
+        jButGuardar.setBounds(30, 310, 100, 30);
+        add(jButGuardar);
+
+        jButSalir = new JButton("Salir");
+        jButSalir.setBounds(975, 310, 100, 30);
+        add(jButSalir);
 
         setLayout(null);
         setResizable(false);
-        setSize(1120, 700);
+        setSize(1120, 400);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
+
+        jButGuardar.addActionListener(e -> {
+            if (jTFNombre.getText().isEmpty()) {
+                jLNombreError.setText("Error tienes que introducir el nombre de forma correcta.");
+            } else {
+                if (jTFNombre.getText().matches("[A-Za-z]*")) {
+                    jLNombreError.setText("");
+                } else {
+                    jLNombreError.setText("Error tienes que introducir el nombre de forma correcta.");
+                }
+            }
+
+            if (jTFApellidos.getText().isEmpty()) {
+                jLApellidosError.setText("Error tienes que introducir los apellidos de forma correcta.");
+            } else {
+                if (jTFApellidos.getText().matches("[A-Za-z]*")) {
+                    jLApellidosError.setText("");
+                } else {
+                    jLApellidosError.setText("Error tienes que introducir los apellidos de forma correcta.");
+                }
+            }
+
+            if (jTFDni.getText().isEmpty()) {
+                jLDniError.setText("Error el tienes que introducir el dni con formato correcto.");
+            } else {
+                try {
+                    if (comprobarDni(jTFDni.getText())) {
+                        jLDniError.setText("");
+                    } else {
+                        jLDniError.setText("Error el tienes que introducir el dni con formato correcto.");
+                    }
+                } catch (Exception ex) {
+                    jLDniError.setText("Error el tienes que introducir el dni con formato correcto.");
+                }
+            }
+
+            if (jTFTelefono.getText().isEmpty()) {
+                jLTelefonoError.setText("Error el telefono es maximo de 9 numeros.");
+            } else {
+                if (jTFTelefono.getText().matches("[0-9]*") && jTFTelefono.getText().length() == 9) {
+                    jLTelefonoError.setText("");
+                } else {
+                    jLTelefonoError.setText("Error el telefono es maximo de 9 numeros.");
+                }
+            }
+
+            if (jTFCalle.getText().isEmpty()) {
+                jLCalleError.setText("Error tienes que introducir la calle.");
+            } else {
+                jLCalleError.setText("");
+            }
+
+            if (jTFPortal.getText().isEmpty()) {
+                jLPortalError.setText("Error tienes que introducir el portal.");
+            } else {
+                if (jTFTelefono.getText().matches("[0-9]*")) {
+                    jLPortalError.setText("");
+                } else {
+                    jLPortalError.setText("Error tienes que introducir el portal.");
+                }
+            }
+
+            if (jTFCodigoPostal.getText().isEmpty()) {
+                jLCodigoPostalError.setText("Error tienes que introducir el portal.");
+            } else {
+                jLCodigoPostalError.setText("");
+            }
+
+            if (jTFCiudad.getText().isEmpty()) {
+                jLCiudadError.setText("Error no has introducido una ciudad.");
+            } else {
+                jLCiudadError.setText("");
+            }
+
+            if (jTFNumFederador.getText().isEmpty()) {
+                jLNumFederadorError.setText("Error tienes que introducir 6 numeros.");
+            } else {
+                jLNumFederadorError.setText("");
+            }
+
+            if (jRBSexoF.isSelected()) {
+                jLSexoError.setText("");
+            } else if (jRBSexoM.isSelected()) {
+                jLSexoError.setText("");
+            } else {
+                jLSexoError.setText("Error tienes que seleccionar un sexo.");
+            }
+
+            if (jTFPassword.getText().isEmpty()) {
+                jLPasswordError.setText("Error tienes que introducir una contraseña.");
+            } else {
+                jLPasswordError.setText("");
+            }
+
+            if (jTFConfirmPassword.getText().equals(jTFPassword.getText())) {
+                jLConfirmPasswordError.setText("");
+            } else {
+                jLConfirmPasswordError.setText("Error la contraseña a confirmar tiene que ser igual a la contraseña.");
+            }
+
+            if (jCheckBCompIndiv.isSelected()) {
+                jLErrorTipoComp.setText("");
+            } else if (jCheckBCompEquip.isSelected()) {
+                jLErrorTipoComp.setText("");
+            } else {
+                jLErrorTipoComp.setText("Error tienes que elegir un tipo de competición.");
+            }
+        });
+
+        jButSalir.addActionListener(e -> {
+            System.exit(0);
+        });
     }
     public static void main(String[] args) {
         PrincipalWindowEx05 ventanaPrincipal = new PrincipalWindowEx05();
+    }
+
+    private static boolean comprobarDni(String dni) throws Exception {
+        boolean correcto = false;
+        char carac;
+        String letras = "TRWAGMYFPDXBNJZSQVHLCKE";
+        int num = Integer.parseInt(dni.substring(0, dni.length() - 1));
+
+        carac = letras.charAt(num % 23);
+        System.out.println(letras.charAt(num % 23));
+
+        return (carac == dni.charAt(dni.length() - 1));
     }
 }
