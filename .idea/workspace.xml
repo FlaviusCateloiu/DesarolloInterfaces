@@ -66,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664543664747</updated>
       <workItem from="1666522892068" duration="1811000" />
-      <workItem from="1666534830179" duration="1012000" />
+      <workItem from="1666534830179" duration="1049000" />
+      <workItem from="1666590347919" duration="2202000" />
     </task>
     <task id="LOCAL-00001" summary="Falta el ejercicio02 de los ejercicios.">
       <created>1664550407908</created>
@@ -313,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666524709405</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Sigo los componentes de la ventana.">
+      <created>1666535874769</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1666535874769</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

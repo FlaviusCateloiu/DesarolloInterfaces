@@ -35,8 +35,18 @@ public class PrincipalWindowEx05 extends JFrame {
     private JTextField JTFNumFederador;
     private JLabel JLNumFederadorError;
     private JLabel JLSexo;
-    private JRadioButton JCBSexoM;
-    private JRadioButton JCBSexoF;
+    private ButtonGroup bGSexo;
+    private JRadioButton JRBSexoM;
+    private JRadioButton JRBSexoF;
+    private JLabel JLSexoError;
+    private JLabel JLPassword;
+    private JPasswordField JTFPassword;
+    private JLabel JLPasswordError;
+    private JLabel JLConfirmPassword;
+    private JPasswordField JTFConfirmPassword;
+    private JLabel JLConfirmPasswordError;
+    private JComboBox JCBTipoComp;
+    private JComboBox JCBTipoArm;
 
     public PrincipalWindowEx05() {
         super("Formulario");
@@ -153,7 +163,59 @@ public class PrincipalWindowEx05 extends JFrame {
         JLNumFederadorError.setBounds(490, 150, 250, 20);
         add(JLNumFederadorError);
 
+        JLSexo = new JLabel("*Sexo:");
+        JLSexo.setBounds(730, 130, 40, 20);
+        add(JLSexo);
+        bGSexo = new ButtonGroup();
+        JRBSexoF = new JRadioButton("F");
+        bGSexo.add(JRBSexoF);
+        JRBSexoF.setBounds(770, 130, 40, 20);
+        add(JRBSexoF);
+        JRBSexoM = new JRadioButton("M");
+        bGSexo.add(JRBSexoM);
+        JRBSexoM.setBounds(810, 130, 40, 20);
+        add(JRBSexoM);
+        JLSexoError = new JLabel("Error tienes que seleccionar un sexo.");
+        JLSexoError.setForeground(Color.RED);
+        JLSexoError.setBounds(730, 150, 250, 20);
+        add(JLSexoError);
 
+        JLPassword = new JLabel("*Contraseña:");
+        JLPassword.setBounds(30, 180, 80, 20);
+        add(JLPassword);
+        JTFPassword = new JPasswordField("");
+        JTFPassword.setBounds(110, 180, 120, 20);
+        add(JTFPassword);
+        JLPasswordError = new JLabel("Error tienes que introducir una contraseña.");
+        JLPasswordError.setForeground(Color.RED);
+        JLPasswordError.setBounds(30, 200, 250, 20);
+        add(JLPasswordError);
+
+        JLConfirmPassword = new JLabel("*Confirmar Contraseña:");
+        JLConfirmPassword.setBounds(300, 180, 140, 20);
+        add(JLConfirmPassword);
+        JTFConfirmPassword = new JPasswordField("");
+        JTFConfirmPassword.setBounds(440, 180, 120, 20);
+        add(JTFConfirmPassword);
+        JLConfirmPasswordError = new JLabel("Error la contraseña a confirmar tiene que ser igual a la contraseña.");
+        JLConfirmPasswordError.setForeground(Color.RED);
+        JLConfirmPasswordError.setBounds(300, 200, 380, 20);
+        add(JLConfirmPasswordError);
+
+        JCBTipoComp = new JComboBox();
+        JCBTipoComp.addItem("Tirador");
+        JCBTipoComp.addItem("Arbitro");
+        JCBTipoComp.addItem("Entrenador");
+        JCBTipoComp.addItem("Director");
+        JCBTipoComp.setBounds(740, 180, 100, 20);
+        add(JCBTipoComp);
+
+        JCBTipoArm = new JComboBox();
+        JCBTipoArm.addItem("Sable");
+        JCBTipoArm.addItem("Espada");
+        JCBTipoArm.addItem("Florete");
+        JCBTipoArm.setBounds(900, 180, 100, 20);
+        add(JCBTipoArm);
 
         setLayout(null);
         setResizable(false);
