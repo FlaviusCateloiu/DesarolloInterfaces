@@ -256,31 +256,9 @@ public class PrincipalWindowEx05 extends JFrame {
         jButGuardar.addActionListener(e -> {
             List<Boolean> listComp = new ArrayList<>();
 
-            if (jTFNombre.getText().isEmpty()) {
-                jLNombreError.setText("Error tienes que introducir el nombre de forma correcta.");
-                listComp.add(false);
-            } else {
-                if (jTFNombre.getText().matches("[A-Za-z]*") && jTFNombre.getText().length() <= 30) {
-                    jLNombreError.setText("");
-                    listComp.add(true);
-                } else {
-                    jLNombreError.setText("Error tienes que introducir el nombre de forma correcta.");
-                    listComp.add(false);
-                }
-            }
+            comprobarFormato(jTFNombre, jLNombreError, "[A-Za-z]*", 30, "Error tienes que introducir el nombre de forma correcta.", listComp);
 
-            if (jTFApellidos.getText().isEmpty()) {
-                jLApellidosError.setText("Error tienes que introducir los apellidos de forma correcta.");
-                listComp.add(false);
-            } else {
-                if (jTFApellidos.getText().matches("[A-Za-z]*") && jTFApellidos.getText().length() <= 60) {
-                    jLApellidosError.setText("");
-                    listComp.add(true);
-                } else {
-                    jLApellidosError.setText("Error tienes que introducir los apellidos de forma correcta.");
-                    listComp.add(false);
-                }
-            }
+            comprobarFormato(jTFApellidos, jLApellidosError, "[A-Za-z]*", 60, "Error tienes que introducir los apellidos de forma correcta.", listComp);
 
             if (jTFDni.getText().isEmpty()) {
                 jLDniError.setText("Error el tienes que introducir el dni con formato correcto.");
@@ -301,82 +279,38 @@ public class PrincipalWindowEx05 extends JFrame {
             }
 
             if (jTFTelefono.getText().isEmpty()) {
-                jLTelefonoError.setText("Error el telefono es maximo de 9 numeros.");
+                jLTelefonoError.setText("Error el telefono es de 9 numeros.");
                 listComp.add(false);
             } else {
                 if (jTFTelefono.getText().matches("[0-9]*") && jTFTelefono.getText().length() == 9) {
                     jLTelefonoError.setText("");
                     listComp.add(true);
                 } else {
-                    jLTelefonoError.setText("Error el telefono es maximo de 9 numeros.");
+                    jLTelefonoError.setText("Error el telefono es de 9 numeros.");
                     listComp.add(false);
                 }
             }
 
-            if (jTFCalle.getText().isEmpty()) {
-                jLCalleError.setText("Error tienes que introducir la calle.");
-                listComp.add(false);
-            } else {
-                if (jTFCalle.getText().matches("[A-Za-z]*") && jTFCalle.getText().length() <= 120) {
-                    jLCalleError.setText("");
-                    listComp.add(true);
-                } else {
-                    jLCalleError.setText("Error tienes que introducir la calle.");
-                    listComp.add(false);
-                }
-            }
+            comprobarFormato(jTFCalle, jLCalleError, "[A-Za-z]*", 120, "Error tienes que introducir la calle.", listComp);
 
-            if (jTFPortal.getText().isEmpty()) {
-                jLPortalError.setText("Error tienes que introducir el portal.");
-                listComp.add(false);
-            } else {
-                if (jTFPortal.getText().matches("[0-9]*")) {
-                    jLPortalError.setText("");
-                    listComp.add(true);
-                } else {
-                    jLPortalError.setText("Error tienes que introducir el portal.");
-                    listComp.add(false);
-                }
-            }
+            comprobarFormato(jTFPortal, jLPortalError, "[0-9]*", 120, "Error tienes que introducir el portal.", listComp);
 
             if (jTFCodigoPostal.getText().isEmpty()) {
-                jLCodigoPostalError.setText("Error tienes que introducir el portal.");
+                jLCodigoPostalError.setText("Error tienes que introducir cod postal.");
                 listComp.add(false);
             } else {
                 if (jTFCodigoPostal.getText().matches("[0-9]*") && jTFCodigoPostal.getText().length() == 5) {
                     jLCodigoPostalError.setText("");
                     listComp.add(true);
                 } else {
-                    jLCodigoPostalError.setText("Error tienes que introducir el portal.");
+                    jLCodigoPostalError.setText("Error tienes que introducir cod postal.");
                     listComp.add(false);
                 }
             }
 
-            if (jTFCiudad.getText().isEmpty()) {
-                jLCiudadError.setText("Error no has introducido una ciudad.");
-                listComp.add(false);
-            } else {
-                if (jTFCiudad.getText().matches("[A-Za-z]*") && jTFCiudad.getText().length() <= 30) {
-                    jLCiudadError.setText("");
-                    listComp.add(true);
-                } else {
-                    jLCiudadError.setText("Error no has introducido una ciudad.");
-                    listComp.add(false);
-                }
-            }
+            comprobarFormato(jTFCiudad, jLCiudadError, "[A-Za-z]*", 30, "Error no has introducido una ciudad.", listComp);
 
-            if (jTFNumFederador.getText().isEmpty()) {
-                jLNumFederadorError.setText("Error tienes que introducir 6 numeros.");
-                listComp.add(false);
-            } else {
-                if (jTFNumFederador.getText().matches("[0-9]*") && jTFNumFederador.getText().length() <= 6) {
-                    jLNumFederadorError.setText("");
-                    listComp.add(true);
-                } else {
-                    jLNumFederadorError.setText("Error tienes que introducir 6 numeros.");
-                    listComp.add(false);
-                }
-            }
+            comprobarFormato(jTFNumFederador, jLNumFederadorError, "[0-9]*", 6, "Error tienes que introducir 6 numeros.", listComp);
 
             if (jRBSexoF.isSelected()) {
                 jLSexoError.setText("");
@@ -431,9 +365,15 @@ public class PrincipalWindowEx05 extends JFrame {
             }
 
             if (correctoFinal) {
-                System.out.println("Se ha guardado con exito");
+                guardarInformacion(jTFNombre.getText() + "," + jTFApellidos.getText() + "," + jTFDni.getText() + ","
+                        + jTFTelefono.getText() + "," + jTFCalle.getText() + "," + jTFCodigoPostal.getText() + ","
+                        + jTFCiudad.getText() + "," + jTFNumFederador.getText() + "," + jRBSexoF.isSelected() + ","
+                        + jTFPassword.getText() + "," + jCBTipoComp.getSelectedItem() + "," + jCBTipoArm.getSelectedItem()
+                        + "," + jCheckBCompIndiv.isSelected()+ "," + jCheckBCompEquip.isSelected());
+                JOptionPane.showMessageDialog(null, "Se ha guardar la información", "Información", JOptionPane.INFORMATION_MESSAGE);
+                this.dispose();
             } else {
-                System.out.println("No se ha podido guardar.");
+                JOptionPane.showMessageDialog(null, "No se ha podido guardar la información", "Error", JOptionPane.ERROR_MESSAGE);
             }
         });
 
@@ -445,6 +385,21 @@ public class PrincipalWindowEx05 extends JFrame {
         PrincipalWindowEx05 ventanaPrincipal = new PrincipalWindowEx05();
     }
 
+    private static void comprobarFormato(JTextField jTFComponente, JLabel jLComponenteError, String formato, int numMax, String textoError, List<Boolean> listComp) {
+        if (jTFComponente.getText().isEmpty()) {
+            jLComponenteError.setText(textoError);
+            listComp.add(false);
+        } else {
+            if (jTFComponente.getText().matches(formato) && jTFComponente.getText().length() <= numMax) {
+                jLComponenteError.setText("");
+                listComp.add(true);
+            } else {
+                jLComponenteError.setText(textoError);
+                listComp.add(false);
+            }
+        }
+    }
+
     private static boolean comprobarDni(String dni) throws Exception {
         boolean correcto = false;
         char carac;
@@ -454,5 +409,10 @@ public class PrincipalWindowEx05 extends JFrame {
         carac = letras.charAt(num % 23);
 
         return (carac == dni.charAt(dni.length() - 1));
+    }
+
+    private static boolean guardarInformacion(String informacion) {
+        System.out.println(informacion);
+        return false;
     }
 }
