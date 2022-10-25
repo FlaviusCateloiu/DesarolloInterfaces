@@ -452,7 +452,6 @@ public class PrincipalWindowEx05 extends JFrame {
         int num = Integer.parseInt(dni.substring(0, dni.length() - 1));
 
         carac = letras.charAt(num % 23);
-        System.out.println(letras.charAt(num % 23));
 
         return (carac == dni.charAt(dni.length() - 1));
     }
