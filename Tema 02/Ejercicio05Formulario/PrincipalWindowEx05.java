@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PrincipalWindowEx05 extends JFrame {
 
@@ -252,110 +254,186 @@ public class PrincipalWindowEx05 extends JFrame {
         setVisible(true);
 
         jButGuardar.addActionListener(e -> {
+            List<Boolean> listComp = new ArrayList<>();
+
             if (jTFNombre.getText().isEmpty()) {
                 jLNombreError.setText("Error tienes que introducir el nombre de forma correcta.");
+                listComp.add(false);
             } else {
-                if (jTFNombre.getText().matches("[A-Za-z]*")) {
+                if (jTFNombre.getText().matches("[A-Za-z]*") && jTFNombre.getText().length() <= 30) {
                     jLNombreError.setText("");
+                    listComp.add(true);
                 } else {
                     jLNombreError.setText("Error tienes que introducir el nombre de forma correcta.");
+                    listComp.add(false);
                 }
             }
 
             if (jTFApellidos.getText().isEmpty()) {
                 jLApellidosError.setText("Error tienes que introducir los apellidos de forma correcta.");
+                listComp.add(false);
             } else {
-                if (jTFApellidos.getText().matches("[A-Za-z]*")) {
+                if (jTFApellidos.getText().matches("[A-Za-z]*") && jTFApellidos.getText().length() <= 60) {
                     jLApellidosError.setText("");
+                    listComp.add(true);
                 } else {
                     jLApellidosError.setText("Error tienes que introducir los apellidos de forma correcta.");
+                    listComp.add(false);
                 }
             }
 
             if (jTFDni.getText().isEmpty()) {
                 jLDniError.setText("Error el tienes que introducir el dni con formato correcto.");
+                listComp.add(false);
             } else {
                 try {
                     if (comprobarDni(jTFDni.getText())) {
                         jLDniError.setText("");
+                        listComp.add(true);
                     } else {
                         jLDniError.setText("Error el tienes que introducir el dni con formato correcto.");
+                        listComp.add(false);
                     }
                 } catch (Exception ex) {
                     jLDniError.setText("Error el tienes que introducir el dni con formato correcto.");
+                    listComp.add(false);
                 }
             }
 
             if (jTFTelefono.getText().isEmpty()) {
                 jLTelefonoError.setText("Error el telefono es maximo de 9 numeros.");
+                listComp.add(false);
             } else {
                 if (jTFTelefono.getText().matches("[0-9]*") && jTFTelefono.getText().length() == 9) {
                     jLTelefonoError.setText("");
+                    listComp.add(true);
                 } else {
                     jLTelefonoError.setText("Error el telefono es maximo de 9 numeros.");
+                    listComp.add(false);
                 }
             }
 
             if (jTFCalle.getText().isEmpty()) {
                 jLCalleError.setText("Error tienes que introducir la calle.");
+                listComp.add(false);
             } else {
-                jLCalleError.setText("");
+                if (jTFCalle.getText().matches("[A-Za-z]*") && jTFCalle.getText().length() <= 120) {
+                    jLCalleError.setText("");
+                    listComp.add(true);
+                } else {
+                    jLCalleError.setText("Error tienes que introducir la calle.");
+                    listComp.add(false);
+                }
             }
 
             if (jTFPortal.getText().isEmpty()) {
                 jLPortalError.setText("Error tienes que introducir el portal.");
+                listComp.add(false);
             } else {
-                if (jTFTelefono.getText().matches("[0-9]*")) {
+                if (jTFPortal.getText().matches("[0-9]*")) {
                     jLPortalError.setText("");
+                    listComp.add(true);
                 } else {
                     jLPortalError.setText("Error tienes que introducir el portal.");
+                    listComp.add(false);
                 }
             }
 
             if (jTFCodigoPostal.getText().isEmpty()) {
                 jLCodigoPostalError.setText("Error tienes que introducir el portal.");
+                listComp.add(false);
             } else {
-                jLCodigoPostalError.setText("");
+                if (jTFCodigoPostal.getText().matches("[0-9]*") && jTFCodigoPostal.getText().length() == 5) {
+                    jLCodigoPostalError.setText("");
+                    listComp.add(true);
+                } else {
+                    jLCodigoPostalError.setText("Error tienes que introducir el portal.");
+                    listComp.add(false);
+                }
             }
 
             if (jTFCiudad.getText().isEmpty()) {
                 jLCiudadError.setText("Error no has introducido una ciudad.");
+                listComp.add(false);
             } else {
-                jLCiudadError.setText("");
+                if (jTFCiudad.getText().matches("[A-Za-z]*") && jTFCiudad.getText().length() <= 30) {
+                    jLCiudadError.setText("");
+                    listComp.add(true);
+                } else {
+                    jLCiudadError.setText("Error no has introducido una ciudad.");
+                    listComp.add(false);
+                }
             }
 
             if (jTFNumFederador.getText().isEmpty()) {
                 jLNumFederadorError.setText("Error tienes que introducir 6 numeros.");
+                listComp.add(false);
             } else {
-                jLNumFederadorError.setText("");
+                if (jTFNumFederador.getText().matches("[0-9]*") && jTFNumFederador.getText().length() <= 6) {
+                    jLNumFederadorError.setText("");
+                    listComp.add(true);
+                } else {
+                    jLNumFederadorError.setText("Error tienes que introducir 6 numeros.");
+                    listComp.add(false);
+                }
             }
 
             if (jRBSexoF.isSelected()) {
                 jLSexoError.setText("");
+                listComp.add(true);
             } else if (jRBSexoM.isSelected()) {
                 jLSexoError.setText("");
+                listComp.add(true);
             } else {
                 jLSexoError.setText("Error tienes que seleccionar un sexo.");
+                listComp.add(false);
             }
 
             if (jTFPassword.getText().isEmpty()) {
                 jLPasswordError.setText("Error tienes que introducir una contraseña.");
+                listComp.add(false);
             } else {
-                jLPasswordError.setText("");
+                if (jTFPassword.getText().length() <= 10) {
+                    jLPasswordError.setText("");
+                    listComp.add(true);
+                } else {
+                    jLPasswordError.setText("Error tienes que introducir una contraseña.");
+                    listComp.add(false);
+                }
             }
 
             if (jTFConfirmPassword.getText().equals(jTFPassword.getText())) {
                 jLConfirmPasswordError.setText("");
+                listComp.add(true);
             } else {
                 jLConfirmPasswordError.setText("Error la contraseña a confirmar tiene que ser igual a la contraseña.");
+                listComp.add(false);
             }
 
             if (jCheckBCompIndiv.isSelected()) {
                 jLErrorTipoComp.setText("");
+                listComp.add(true);
             } else if (jCheckBCompEquip.isSelected()) {
                 jLErrorTipoComp.setText("");
+                listComp.add(true);
             } else {
                 jLErrorTipoComp.setText("Error tienes que elegir un tipo de competición.");
+                listComp.add(false);
+            }
+
+            boolean correctoFinal = true;
+            for (int i = 0; i < listComp.size() && correctoFinal; i++) {
+                if (listComp.get(i)) {
+                    correctoFinal = true;
+                } else{
+                    correctoFinal = false;
+                }
+            }
+
+            if (correctoFinal) {
+                System.out.println("Se ha guardado con exito");
+            } else {
+                System.out.println("No se ha podido guardar.");
             }
         });
 
