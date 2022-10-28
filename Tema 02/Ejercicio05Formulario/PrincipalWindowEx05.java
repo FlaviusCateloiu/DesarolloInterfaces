@@ -1,5 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -412,7 +416,11 @@ public class PrincipalWindowEx05 extends JFrame {
     }
 
     private static boolean guardarInformacion(String informacion) {
-        System.out.println(informacion);
+        try {
+            Files.writeString(Path.of("Tema 02/Ejercicio05Formulario/DatosFormulario.csv"), informacion + "\n", StandardOpenOption.APPEND);
+        } catch ( IOException e) {
+            e.printStackTrace();
+        }
         return false;
     }
 }

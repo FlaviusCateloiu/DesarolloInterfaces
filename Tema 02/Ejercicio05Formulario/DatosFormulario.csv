@@ -1,1 +1,3 @@
 nombre,apellidos,dni,telefono,calle,numeroPortal,piso,puerta,codigoPostal,ciudad,numeroFederado,sexo,contrasenya,tipoCompetidor,tipoArma,competicionIndividual,competicionEquipos
+Pepito,Luisito,55417906G,234234234,Madriguera,12530,Burriana,545345,false,Pepe1234,Tirador,Sable,true,true
+Lucas,Romero,55417906G,987987432,Juanete,12530,Burriana,12432,false,123456,Tirador,Sable,false,true
