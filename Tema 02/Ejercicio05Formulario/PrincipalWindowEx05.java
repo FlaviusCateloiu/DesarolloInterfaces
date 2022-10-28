@@ -406,10 +406,16 @@ public class PrincipalWindowEx05 extends JFrame {
 
     private static boolean comprobarDni(String dni) throws Exception {
         boolean correcto = false;
+        int num = 0;
         char carac;
         String letras = "TRWAGMYFPDXBNJZSQVHLCKE";
-        int num = Integer.parseInt(dni.substring(0, dni.length() - 1));
-
+        if (dni.length() == 9) {
+            num = Integer.parseInt(dni.substring(0, dni.length() - 1));
+        } else if (dni.length() == 10){
+            num = Integer.parseInt(dni.substring(1, dni.length() - 1));
+        } else {
+            return false;
+        }
         carac = letras.charAt(num % 23);
 
         return (carac == dni.charAt(dni.length() - 1));

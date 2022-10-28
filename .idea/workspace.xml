@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Falta guardar el String de todos los datos del metodo guardarInformacion en el archivo csv.">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Formulario Terminado con exito.">
+      <change afterPath="$PROJECT_DIR$/Tema 02/Ejercicio06DianaHorizontal/VentanaEjercicio06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 02/Ejercicio06DianaHorizontal/VentanaScoreEj06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio05Formulario/DatosFormulario.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 02/Ejercicio05Formulario/DatosFormulario.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesarolloInterfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesarolloInterfaces.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 02/Ejercicio05Formulario/PrincipalWindowEx05.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 02/Ejercicio05Formulario/PrincipalWindowEx05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -328,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666717402785</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Formulario Terminado con exito.">
+      <created>1666963870776</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1666963870777</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,7 +352,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Segunda Ventana para mover componentes o posicionar." />
     <MESSAGE value="Primera accion para los botones del ejemplo 02." />
     <MESSAGE value="Ejemplos de eventos en la ventana al minimizar y volver a la ventana tambien puedes hacer cuando se cierre o se abra el boton" />
     <MESSAGE value="Terminado el primer apartado del ejercicio1" />
@@ -368,6 +376,7 @@
     <MESSAGE value="Faltan las comprobaciones de los demas campos." />
     <MESSAGE value="Falta guardar en un archivo." />
     <MESSAGE value="Falta guardar el String de todos los datos del metodo guardarInformacion en el archivo csv." />
-    <option name="LAST_COMMIT_MESSAGE" value="Falta guardar el String de todos los datos del metodo guardarInformacion en el archivo csv." />
+    <MESSAGE value="Formulario Terminado con exito." />
+    <option name="LAST_COMMIT_MESSAGE" value="Formulario Terminado con exito." />
   </component>
 </project>
