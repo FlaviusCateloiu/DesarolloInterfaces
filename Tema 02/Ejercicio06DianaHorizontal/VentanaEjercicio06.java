@@ -15,16 +15,16 @@ public class VentanaEjercicio06 extends JFrame  {
         add(botonVolverJugar);
 
         controler = new JSlider();
-        controler.setBounds(160, 60, 500, 30);
+        controler.setBounds(20, 60, 1920/2, 30);
         controler.setValue(0);
         add(controler);
 
-        setSize(800, 200);
+        setSize(1000, 200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setVisible(true);
 
-        AtomicInteger valorRamdom = new AtomicInteger((int) (Math.random() * 90 + 10));
+        AtomicInteger valorRamdom = new AtomicInteger((int) (Math.random() * 100));
         controler.addChangeListener(e -> {
             int valor = controler.getValue();
             if (!controler.getValueIsAdjusting()) {
@@ -33,7 +33,7 @@ public class VentanaEjercicio06 extends JFrame  {
         });
 
         botonVolverJugar.addActionListener(e -> {
-            valorRamdom.set((int) (Math.random() * 90 + 10));
+            valorRamdom.set((int) (Math.random() * 100));
             controler.setValue(0);
         });
     }
