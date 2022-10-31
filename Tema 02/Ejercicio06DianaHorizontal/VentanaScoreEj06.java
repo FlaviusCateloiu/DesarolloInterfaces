@@ -13,10 +13,17 @@ public class VentanaScoreEj06 extends JDialog {
         if (valor == valorRandom) {
             score.setText("¡Enhorabuena, acertaste! " + valor);
             score.setForeground(Color.RED);
-        } else if (valor < valorRandom || valor > valorRandom) {
-            score.setText("Ha estado cerca, prueba otra vez " + valor);
-            score.setForeground(new Color(0xFD7300));
         } else {
+            if (valorRandom <= 10 || valorRandom >= 90) {
+                if (valor < valorRandom || valor > valorRandom) {
+                    score.setText("Ha estado cerca, prueba otra vez " + valor);
+                    score.setForeground(new Color(0xFD7300));
+                }
+
+            } else {
+                score.setText("Ha estado cerca, prueba otra vez " + valor);
+                score.setForeground(new Color(0xFD7300));
+            }
             score.setText("Ha estado lejos, prueba otra vez " + valor);
             score.setForeground(new Color(0x459635));
         }
