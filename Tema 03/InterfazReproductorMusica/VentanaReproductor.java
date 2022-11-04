@@ -66,13 +66,13 @@ public class VentanaReproductor extends JFrame {
      rebobinarAtras.setIcon(iconRebAtras);
      rebobinarAtras.setBackground(new Color(237, 237, 237));
      panelBotones.add(rebobinarAtras);
-     stop = new JButton("STOP");
+     stop = new JButton();
      stop.setBorder(new EmptyBorder(1, 1, 1, 1));
      ImageIcon iconStop = new ImageIcon("Tema 03/InterfazReproductorMusica/stopOriginal.jpg");
      stop.setIcon(iconStop);
      stop.setBackground(new Color(237, 237, 237));
      panelBotones.add(stop);
-     rebobinarAdelante = new JButton("REBOBINAR ADELANTE");
+     rebobinarAdelante = new JButton();
      rebobinarAdelante.setBorder(new EmptyBorder(1, 1, 1, 1));
      ImageIcon iconRebAdel = new ImageIcon("Tema 03/InterfazReproductorMusica/rebobinarAnterior.jpg");
      rebobinarAdelante.setIcon(iconRebAdel);
