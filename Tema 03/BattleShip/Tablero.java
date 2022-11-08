@@ -1,23 +1,32 @@
 public class Tablero {
-    public static void main(String[] args) {
-        System.out.println(generarTablero());
+    private String tablero = "";
+
+    public String getTablero() {
+        return tablero;
     }
 
-    public static String generarTablero() {
-        String tablero = "";
+    public void setTablero(String tablero) {
+        this.tablero = tablero;
+    }
+
+    public void generarTablero() {
         char c;
         for (int i = 0; i < 11; i++) {
             if (i == 0) {
-                tablero = " ";
+                this.tablero = " ";
             } else {
-                tablero += i;
+                tablero +=  " " + i;
             }
         }
-        for (int j = 0; j < 10; j++) {
+        for (int j = 65; j < 75; j++) {
             c = (char) j;
             tablero += "\n";
-            tablero += c + "-".repeat(10);
+            tablero += c + " -".repeat(10);
         }
+    }
+
+    @Override
+    public String toString() {
         return tablero;
     }
 }
