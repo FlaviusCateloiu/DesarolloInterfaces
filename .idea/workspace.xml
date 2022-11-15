@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tablero hecho">
-      <change afterPath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_11_22_17_28_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_11_22_17_28__Changes_.xml" beforeDir="false" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Aprender a utilizar la GUI de Intellig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/BattleShipMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/BattleShipMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Tablero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/BattleShipMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.form" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,15 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3" />
@@ -381,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667929762880</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Aprender a utilizar la GUI de Intellig">
+      <created>1668529171072</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1668529171072</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,7 +401,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exercise 2_3 is finished" />
     <MESSAGE value="Parte a del ejercicio 03" />
     <MESSAGE value="Parte c del ejercicio 03" />
     <MESSAGE value="Faltan las demas del ejercicio 2 apartado 4" />
@@ -421,6 +425,7 @@
     <MESSAGE value="Ejercicio Terminado con exito." />
     <MESSAGE value="Crecion Battle Ship" />
     <MESSAGE value="Tablero hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tablero hecho" />
+    <MESSAGE value="Aprender a utilizar la GUI de Intellig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprender a utilizar la GUI de Intellig" />
   </component>
 </project>
