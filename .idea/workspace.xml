@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Crecion Battle Ship">
-      <change afterPath="$PROJECT_DIR$/Tema 03/BattleShip/BattleShipMain.java" afterDir="false" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tablero hecho">
+      <change afterPath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_11_22_17_28_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_11_22_17_28__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/BattleShipMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/BattleShipMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Tablero.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667925816906</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Tablero hecho">
+      <created>1667929762880</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1667929762880</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +396,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Terminado el segundo apartado del ejercicio2" />
     <MESSAGE value="Exercise 2_3 is finished" />
     <MESSAGE value="Parte a del ejercicio 03" />
     <MESSAGE value="Parte c del ejercicio 03" />
@@ -410,6 +420,7 @@
     <MESSAGE value="Creacion de la diana horizontal." />
     <MESSAGE value="Ejercicio Terminado con exito." />
     <MESSAGE value="Crecion Battle Ship" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crecion Battle Ship" />
+    <MESSAGE value="Tablero hecho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tablero hecho" />
   </component>
 </project>
