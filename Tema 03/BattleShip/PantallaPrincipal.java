@@ -1,15 +1,26 @@
 import javax.swing.*;
+import java.util.Map;
 
 public class PantallaPrincipal extends JFrame {
-    private JButton bJugar;
-    private JButton bSalir;
-    private JLabel lTitulo;
-    private JPanel pPrincipal;
+    private JButton jBJugar;
+    private JButton jBSalir;
+    private JLabel jLTitulo;
+    private JPanel jPPrincipal;
 
     public PantallaPrincipal() {
-        super("");
-        setContentPane(pPrincipal);
-        setSize(600, 300);
+        super("Hundir la Flota Pantalla Principal");
+
+        jBJugar.addActionListener(a -> {
+            IntroducirBarcos ventanaIntroducirBarcos = new IntroducirBarcos();
+        });
+
+        jBSalir.addActionListener(a -> {
+            System.exit(0);
+        });
+
+        setContentPane(jPPrincipal);
+        setSize(600, 400);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
     }
