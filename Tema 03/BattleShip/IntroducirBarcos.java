@@ -4,6 +4,8 @@ import javax.swing.border.LineBorder;
 import java.awt.*;
 
 public class IntroducirBarcos extends JFrame {
+
+    private Mapa mapaPlayer1;
     private JPanel jPIntroducirBarcos;
     private JPanel jPDatos;
     private JComboBox comboBox1;
@@ -11,7 +13,7 @@ public class IntroducirBarcos extends JFrame {
 
     public IntroducirBarcos() {
         super("Introducir Barcos al Mapa");
-        setContentPane(jPIntroducirBarcos);
+        setContentPane(this.jPIntroducirBarcos);
         setSize(800, 800);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
@@ -19,8 +21,13 @@ public class IntroducirBarcos extends JFrame {
     }
 
     private void createUIComponents() {
-        jPBarcosIntroducidos = new JPanel(new BorderLayout());
-        jPBarcosIntroducidos.setBorder(new LineBorder(Color.BLACK, 2));
-        jPBarcosIntroducidos.add(new Mapa());
+        this.jPBarcosIntroducidos = new JPanel(new BorderLayout());
+        this.jPBarcosIntroducidos.setBorder(new LineBorder(Color.BLACK, 2));
+        this.mapaPlayer1 = new Mapa();
+        this.jPBarcosIntroducidos.add(this.mapaPlayer1);
+    }
+
+    public Mapa getMapaPlayer1() {
+        return this.mapaPlayer1;
     }
 }

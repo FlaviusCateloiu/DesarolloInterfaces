@@ -7,10 +7,13 @@ import java.util.List;
 
 public class Mapa extends JPanel {
 
+    private final int NUM_ROWS = 10;
+    private final int NUM_COLS = 10;
+
     public Mapa() {
         super();
-        setLayout(new GridLayout(11, 11));
-        for (int i = 0; i < 121; i++) {
+        setLayout(new GridLayout(NUM_ROWS, NUM_COLS));
+        for (int i = 0; i < (NUM_ROWS * NUM_COLS); i++) {
             JLabel label = new JLabel("");
             label.setBorder(new LineBorder(Color.BLACK));
             add(label);
@@ -21,9 +24,5 @@ public class Mapa extends JPanel {
                 }
             });
         }
-    }
-
-    public List<Component> getComponentes() {
-        return this.getComponentes();
     }
 }
