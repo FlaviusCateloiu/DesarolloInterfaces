@@ -31,11 +31,11 @@
             <properties>
               <font name="Ubuntu Mono" size="16"/>
               <model>
-                <item value=""/>
                 <item value="Barco1"/>
                 <item value="Barco2"/>
                 <item value="Barco3"/>
                 <item value="Barco4"/>
+                <item value="Barco5"/>
               </model>
             </properties>
           </component>
