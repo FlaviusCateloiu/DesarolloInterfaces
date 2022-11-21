@@ -3,7 +3,6 @@ import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.util.List;
 
 public class Mapa extends JPanel {
 
@@ -12,17 +11,24 @@ public class Mapa extends JPanel {
 
     public Mapa() {
         super();
-        setLayout(new GridLayout(NUM_ROWS, NUM_COLS));
-        for (int i = 0; i < (NUM_ROWS * NUM_COLS); i++) {
-            JLabel label = new JLabel("");
-            label.setBorder(new LineBorder(Color.BLACK));
-            add(label);
-            label.addMouseListener(new MouseAdapter() {
-                @Override
-                public void mouseClicked(MouseEvent e) {
-                    label.setText("Marcado");
-                }
-            });
+        setLayout(new GridLayout(NUM_ROWS, NUM_COLS, 0, 0));
+        setSize(new Dimension(500, 500));
+        for (int i = 0; i < NUM_ROWS; i++) {
+            for (int j = 0; j < NUM_COLS; j++) {
+                Barco label = new Barco();
+                label.setBorder(new LineBorder(Color.BLACK));
+                label.setOpaque(true);
+                label.setBackground(new Color(136,215,144));
+                label.setHorizontalAlignment(SwingConstants.CENTER);
+                add(label);
+                label.addMouseListener(new MouseAdapter() {
+                    @Override
+                    public void mouseClicked(MouseEvent e) {
+                        label.seleccionarBarco();
+                        label.setBackground(Color.RED);
+                    }
+                });
+            }
         }
     }
 }

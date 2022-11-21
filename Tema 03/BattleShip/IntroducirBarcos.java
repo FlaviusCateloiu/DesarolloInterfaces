@@ -1,19 +1,22 @@
-import javax.sound.sampled.Line;
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 
 public class IntroducirBarcos extends JFrame {
-
     private Mapa mapaPlayer1;
     private JPanel jPIntroducirBarcos;
     private JPanel jPDatos;
-    private JComboBox comboBox1;
+    private JComboBox jCBSelectBarco;
     private JPanel jPBarcosIntroducidos;
 
     public IntroducirBarcos() {
         super("Introducir Barcos al Mapa");
         setContentPane(this.jPIntroducirBarcos);
+
+        this.jCBSelectBarco.addActionListener(l -> {
+            System.out.println("hola");
+        });
+
         setSize(800, 800);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);

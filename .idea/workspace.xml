@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Estoy haciendo que introduzca los barcos en el mapa.">
+      <change afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Barco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.form" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Mapa.java" afterDir="false" />
     </list>
@@ -40,11 +42,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -66,22 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664543664747</updated>
-      <workItem from="1668959903190" duration="1936000" />
-      <workItem from="1668966581911" duration="196000" />
-    </task>
-    <task id="LOCAL-00001" summary="Falta el ejercicio02 de los ejercicios.">
-      <created>1664550407908</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1664550407908</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Creacion del ejercicio 02 falta hacer la implementacion de un metodo de la Clase Math">
-      <created>1664554728553</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1664554728553</updated>
     </task>
     <task id="LOCAL-00003" summary="Ejercicio dos en proceso">
       <created>1664556784114</created>
@@ -356,32 +339,78 @@
       <option name="project" value="LOCAL" />
       <updated>1666970915818</updated>
     </task>
-    <task id="LOCAL-00042" summary="Faltan muchas cosas">
-      <created>1668955353426</created>
+    <task id="LOCAL-00042" summary="Ejercicio Terminado con exito.">
+      <created>1667579392386</created>
       <option name="number" value="00042" />
       <option name="presentableId" value="LOCAL-00042" />
       <option name="project" value="LOCAL" />
-      <updated>1668955353426</updated>
+      <updated>1667579392386</updated>
     </task>
-    <task id="LOCAL-00043" summary="No tengo ni idea de como hacer el mapa para que clique el usuario y se cambie el color porque ha sido clicado.">
-      <created>1668961412995</created>
+    <task id="LOCAL-00043" summary="Ejercicio Terminado con exito.">
+      <created>1667579909632</created>
       <option name="number" value="00043" />
       <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1668961412995</updated>
+      <updated>1667579909632</updated>
     </task>
-    <task id="LOCAL-00044" summary="Algo tengo por ahora.">
-      <created>1668961847574</created>
+    <task id="LOCAL-00044" summary="Crecion Battle Ship">
+      <created>1667925816906</created>
       <option name="number" value="00044" />
       <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1668961847574</updated>
+      <updated>1667925816906</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Tablero hecho">
+      <created>1667929762880</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1667929762880</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Aprender a utilizar la GUI de Intellig">
+      <created>1668529171072</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1668529171072</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Terminada la primera ventana que es la principal.">
+      <created>1668530270582</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1668530270582</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Terminada la primera ventana que es la principal.">
+      <created>1668530424592</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1668530424592</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Terminada la primera ventana que es la principal.">
+      <created>1668530550239</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1668530550239</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Terminada la primera ventana que es la principal.">
+      <created>1668530663187</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1668530663188</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Estoy haciendo que introduzca los barcos en el mapa.">
+      <created>1668789457403</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1668789457404</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -395,9 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exercise 2_3 is finished" />
-    <MESSAGE value="Parte a del ejercicio 03" />
-    <MESSAGE value="Parte c del ejercicio 03" />
     <MESSAGE value="Faltan las demas del ejercicio 2 apartado 4" />
     <MESSAGE value="La opcion d del apartado 4 del ejercicio 2 es esto." />
     <MESSAGE value="La opcion e del apartado 4 del ejercicio 2 es esto." />
@@ -417,9 +443,12 @@
     <MESSAGE value="Falta guardar el String de todos los datos del metodo guardarInformacion en el archivo csv." />
     <MESSAGE value="Formulario Terminado con exito." />
     <MESSAGE value="Creacion de la diana horizontal." />
-    <MESSAGE value="Faltan muchas cosas" />
-    <MESSAGE value="No tengo ni idea de como hacer el mapa para que clique el usuario y se cambie el color porque ha sido clicado." />
-    <MESSAGE value="Algo tengo por ahora." />
-    <option name="LAST_COMMIT_MESSAGE" value="Algo tengo por ahora." />
+    <MESSAGE value="Ejercicio Terminado con exito." />
+    <MESSAGE value="Crecion Battle Ship" />
+    <MESSAGE value="Tablero hecho" />
+    <MESSAGE value="Aprender a utilizar la GUI de Intellig" />
+    <MESSAGE value="Terminada la primera ventana que es la principal." />
+    <MESSAGE value="Estoy haciendo que introduzca los barcos en el mapa." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estoy haciendo que introduzca los barcos en el mapa." />
   </component>
 </project>
