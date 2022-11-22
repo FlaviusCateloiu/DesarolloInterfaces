@@ -24,19 +24,7 @@ public class Mapa extends JPanel {
                 label.setHorizontalAlignment(SwingConstants.CENTER);
                 celdas[i][j] = label;
                 add(label);
-
-                /*label.addMouseListener(new MouseAdapter() {
-                    @Override
-                    public void mouseClicked(MouseEvent e) {
-                        if (!label.isSeleccionado()) {
-                            label.seleccionarBarco();
-                            label.setBackground(Color.RED);
-                        } else {
-                            label.setSeleccionado(false);
-                            label.setBackground(new Color(136,215,144));
-                        }
-                    }
-                });*/
+                add(label);
             }
         }
     }
