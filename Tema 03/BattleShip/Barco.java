@@ -1,13 +1,35 @@
-import javax.swing.*;
+public class Barco {
+    private String nombre;
+    private boolean introducido;
+    private int longitud;
 
-public class Barco extends JLabel {
-    private boolean seleccionado;
-
-    public Barco() {
-        this.seleccionado = false;
+    public Barco(String nombre, int longitud) {
+        this.nombre = nombre;
+        this.introducido = false;
+        this.longitud = longitud;
     }
 
-    public void seleccionarBarco() {
-        this.seleccionado = true;
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public boolean isIntroducido() {
+        return introducido;
+    }
+
+    public void setIntroducido(boolean introducido) {
+        this.introducido = introducido;
+    }
+
+    public int getLongitud() {
+        return longitud;
+    }
+
+    public void setLongitud(int longitud) {
+        this.longitud = longitud;
     }
 }

@@ -20,22 +20,22 @@
         </properties>
         <border type="none"/>
         <children>
-          <component id="7edab" class="javax.swing.JComboBox" binding="jCBSelectBarco">
+          <component id="7edab" class="javax.swing.JComboBox" binding="jCBSelectBarco" custom-create="true">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="1" use-parent-layout="false">
-                <minimum-size width="100" height="-1"/>
-                <preferred-size width="100" height="-1"/>
-                <maximum-size width="100" height="-1"/>
+                <minimum-size width="200" height="-1"/>
+                <preferred-size width="200" height="-1"/>
+                <maximum-size width="200" height="-1"/>
               </grid>
             </constraints>
             <properties>
               <font name="Ubuntu Mono" size="16"/>
               <model>
-                <item value="Barco1"/>
-                <item value="Barco2"/>
-                <item value="Barco3"/>
-                <item value="Barco4"/>
-                <item value="Barco5"/>
+                <item value="Aircraft"/>
+                <item value="Battleship"/>
+                <item value="Submarine"/>
+                <item value="Cruiser"/>
+                <item value="Destroyer"/>
               </model>
             </properties>
           </component>

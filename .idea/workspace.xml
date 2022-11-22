@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Estoy haciendo que introduzca los barcos en el mapa.">
-      <change afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Barco.java" afterDir="false" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Algo nuevo tengo.">
+      <change afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Celda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Barco.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Barco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.form" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Mapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +67,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664543664747</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Ejercicio dos en proceso">
-      <created>1664556784114</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1664556784114</updated>
     </task>
     <task id="LOCAL-00004" summary="Corregido el ejercicio05">
       <created>1664557335906</created>
@@ -409,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668789457404</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Algo nuevo tengo.">
+      <created>1669059701083</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1669059701084</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +426,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Faltan las demas del ejercicio 2 apartado 4" />
     <MESSAGE value="La opcion d del apartado 4 del ejercicio 2 es esto." />
     <MESSAGE value="La opcion e del apartado 4 del ejercicio 2 es esto." />
     <MESSAGE value="Finalizado el ejercicio con todos los apartados." />
@@ -449,6 +450,7 @@
     <MESSAGE value="Aprender a utilizar la GUI de Intellig" />
     <MESSAGE value="Terminada la primera ventana que es la principal." />
     <MESSAGE value="Estoy haciendo que introduzca los barcos en el mapa." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estoy haciendo que introduzca los barcos en el mapa." />
+    <MESSAGE value="Algo nuevo tengo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Algo nuevo tengo." />
   </component>
 </project>
