@@ -172,14 +172,7 @@ public class IntroducirBarcos extends JFrame {
                     b.setIntroducido(true);
                 } catch(ArrayIndexOutOfBoundsException e) {
                     jErrorSelecBarco.setText("Error te has salido del mapa introduce otra vez el barco.");
-                    for (int i = 0; i < celdas.length; i++) {
-                        for (int j = 0; j < celdas[i].length; j++) {
-                            if (celdas[i][j].getBarco().equalsIgnoreCase(b.getNombre())) {
-                                celdas[i][j].setSeleccionado(false);
-                                celdas[i][j].setBackground(new Color(136,215,144));
-                            }
-                        }
-                    }
+
                 }
             }
         }
