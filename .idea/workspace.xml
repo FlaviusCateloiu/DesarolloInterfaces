@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco.">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tengo cositas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Barco.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Barco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.form" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Celda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Celda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Mapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/PantallaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664543664747</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Primera Ventana">
-      <created>1664902541815</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1664902541815</updated>
     </task>
     <task id="LOCAL-00008" summary="Segunda Ventana">
       <created>1665152488868</created>
@@ -408,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669140268729</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Tengo cositas">
+      <created>1669391387053</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1669391387054</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finalizado el ejercicio con todos los apartados." />
     <MESSAGE value="Las clases de la agenda de Alejandro" />
     <MESSAGE value="Modificación lo de alejandro" />
     <MESSAGE value="Falta todos jajvajav" />
@@ -448,6 +448,7 @@
     <MESSAGE value="Algo nuevo tengo." />
     <MESSAGE value="Algo tengo xD" />
     <MESSAGE value="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco." />
+    <MESSAGE value="Tengo cositas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tengo cositas" />
   </component>
 </project>

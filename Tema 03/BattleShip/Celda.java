@@ -1,7 +1,7 @@
 import javax.swing.*;
 
 public class Celda extends JLabel {
-    private String barco;
+    private String barco = "";
     private boolean seleccionado;
 
     public Celda() {

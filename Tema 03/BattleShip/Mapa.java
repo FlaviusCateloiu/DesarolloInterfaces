@@ -24,7 +24,6 @@ public class Mapa extends JPanel {
                 label.setHorizontalAlignment(SwingConstants.CENTER);
                 celdas[i][j] = label;
                 add(label);
-                add(label);
             }
         }
     }

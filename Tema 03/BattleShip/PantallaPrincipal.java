@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class PantallaPrincipal extends JFrame {
     private JButton jBJugar;
@@ -11,6 +13,13 @@ public class PantallaPrincipal extends JFrame {
 
         jBJugar.addActionListener(a -> {
             IntroducirBarcos ventanaIntroducirBarcos = new IntroducirBarcos();
+            setVisible(false);
+            ventanaIntroducirBarcos.addWindowListener(new WindowAdapter() {
+                @Override
+                public void windowClosed(WindowEvent e) {
+                    setVisible(true);
+                }
+            });
         });
 
         jBSalir.addActionListener(a -> {
