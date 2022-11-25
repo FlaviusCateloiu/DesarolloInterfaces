@@ -1,12 +1,16 @@
+import java.awt.*;
+
 public class Barco {
     private String nombre;
     private boolean introducido;
     private int longitud;
+    private Color color;
 
-    public Barco(String nombre, int longitud) {
+    public Barco(String nombre, int longitud, Color color) {
         this.nombre = nombre;
         this.introducido = false;
         this.longitud = longitud;
+        this.color = color;
     }
 
     public String getNombre() {
@@ -31,5 +35,13 @@ public class Barco {
 
     public void setLongitud(int longitud) {
         this.longitud = longitud;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
     }
 }

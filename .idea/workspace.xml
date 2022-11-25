@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco.">
-      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Mapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/Barco.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/Barco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.form" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664543664747</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Primera Ventana">
-      <created>1664902300580</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1664902300580</updated>
     </task>
     <task id="LOCAL-00007" summary="Primera Ventana">
       <created>1664902541815</created>
@@ -405,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669140156548</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco.">
+      <created>1669140268729</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1669140268729</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
