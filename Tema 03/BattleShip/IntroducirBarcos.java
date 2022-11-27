@@ -73,6 +73,8 @@ public class IntroducirBarcos extends JFrame {
             }
         });
 
+
+
         setSize(800, 800);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
@@ -142,37 +144,61 @@ public class IntroducirBarcos extends JFrame {
                             JOptionPane.YES_NO_CANCEL_OPTION,
                             JOptionPane.QUESTION_MESSAGE,
                             null,
-                            new Object[] { "Abajo", "Izquierda", "Arriba", "Derecha"},
+                            new Object[]{"Abajo", "Izquierda", "Arriba", "Derecha"},
                             "Abajo");
                     if (seleccion == 0) {
                         for (int i = y; i < b.getLongitud() + y; i++) {
-                            celdas[i][x].setBackground(b.getColor());
-                            celdas[i][x].setSeleccionado(true);
-                            celdas[i][x].setBarco(b.getNombre());
+                            if (!celdas[i][x].isSeleccionado()) {
+                                celdas[i][x].setBackground(b.getColor());
+                                celdas[i][x].setSeleccionado(true);
+                                celdas[i][x].setBarco(b.getNombre());
+                            } else {
+                                throw new ArrayIndexOutOfBoundsException();
+                            }
                         }
                     } else if (seleccion == 1) {
                         for (int i = x; i > x - b.getLongitud(); i--) {
-                            celdas[y][i].setBackground(b.getColor());
-                            celdas[y][i].setSeleccionado(true);
-                            celdas[i][x].setBarco(b.getNombre());
+                            if (!celdas[y][i].isSeleccionado()) {
+                                celdas[y][i].setBackground(b.getColor());
+                                celdas[y][i].setSeleccionado(true);
+                                celdas[y][i].setBarco(b.getNombre());
+                            } else {
+                                throw new ArrayIndexOutOfBoundsException();
+                            }
                         }
                     } else if (seleccion == 2) {
                         for (int i = y; i > y - b.getLongitud(); i--) {
-                            celdas[i][x].setBackground(b.getColor());
-                            celdas[i][x].setSeleccionado(true);
-                            celdas[i][x].setBarco(b.getNombre());
+                            if (!celdas[i][x].isSeleccionado()) {
+                                celdas[i][x].setBackground(b.getColor());
+                                celdas[i][x].setSeleccionado(true);
+                                celdas[i][x].setBarco(b.getNombre());
+                            } else {
+                                throw new ArrayIndexOutOfBoundsException();
+                            }
                         }
                     } else {
                         for (int i = x; i < b.getLongitud() + x; i++) {
-                            celdas[y][i].setBackground(b.getColor());
-                            celdas[y][i].setSeleccionado(true);
-                            celdas[i][x].setBarco(b.getNombre());
+                            if (!celdas[y][i].isSeleccionado()) {
+                                celdas[y][i].setBackground(b.getColor());
+                                celdas[y][i].setSeleccionado(true);
+                                celdas[y][i].setBarco(b.getNombre());
+                            } else {
+                                throw new ArrayIndexOutOfBoundsException();
+                            }
                         }
                     }
                     b.setIntroducido(true);
-                } catch(ArrayIndexOutOfBoundsException e) {
+                } catch (ArrayIndexOutOfBoundsException e) {
                     jErrorSelecBarco.setText("Error te has salido del mapa introduce otra vez el barco.");
-
+                    for (int i = 0; i < celdas.length; i++) {
+                        for (int j = 0; j < celdas[i].length; j++) {
+                            if (celdas[i][j].getBarco().equalsIgnoreCase(b.getNombre())) {
+                                celdas[i][j].setBarco("");
+                                celdas[i][j].setSeleccionado(false);
+                                celdas[i][j].setBackground(new Color(136, 215, 144));
+                            }
+                        }
+                    }
                 }
             }
         }
