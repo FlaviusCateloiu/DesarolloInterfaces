@@ -73,7 +73,21 @@ public class IntroducirBarcos extends JFrame {
             }
         });
 
+        jBComenzarPartida.addActionListener(a -> {
+            boolean barcosColocados = true;
 
+            for (Barco b : barcos) {
+                if (!b.isIntroducido()) {
+                    barcosColocados = false;
+                }
+            }
+
+            if (barcosColocados) {
+                CombateBarcos combate = new CombateBarcos();
+            } else {
+                JOptionPane.showMessageDialog(this, "Introduce todos los barcos para poder jugar contra la IA.", "Error", JOptionPane.ERROR_MESSAGE);
+            }
+        });
 
         setSize(800, 800);
         setLocationRelativeTo(null);

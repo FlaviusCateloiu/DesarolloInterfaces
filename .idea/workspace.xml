@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tema 03/BattleShip/CombateBarcos.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 03/BattleShip/CombateBarcos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 03/BattleShip/IntroducirBarcos.java" afterDir="false" />
     </list>
@@ -67,6 +69,9 @@
       <updated>1664543664747</updated>
       <workItem from="1668959903190" duration="1936000" />
       <workItem from="1668966581911" duration="196000" />
+      <workItem from="1669564874863" duration="142000" />
+      <workItem from="1669567618902" duration="171000" />
+      <workItem from="1669568593940" duration="829000" />
     </task>
     <task id="LOCAL-00001" summary="Falta el ejercicio02 de los ejercicios.">
       <created>1664550407908</created>
@@ -376,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668961847574</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Ya tengo para recoger los barcos me falta la partida.">
+      <created>1669560090829</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1669560090829</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exercise 2_3 is finished" />
     <MESSAGE value="Parte a del ejercicio 03" />
     <MESSAGE value="Parte c del ejercicio 03" />
     <MESSAGE value="Faltan las demas del ejercicio 2 apartado 4" />
@@ -419,6 +430,7 @@
     <MESSAGE value="Faltan muchas cosas" />
     <MESSAGE value="No tengo ni idea de como hacer el mapa para que clique el usuario y se cambie el color porque ha sido clicado." />
     <MESSAGE value="Algo tengo por ahora." />
-    <option name="LAST_COMMIT_MESSAGE" value="Algo tengo por ahora." />
+    <MESSAGE value="Ya tengo para recoger los barcos me falta la partida." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ya tengo para recoger los barcos me falta la partida." />
   </component>
 </project>
