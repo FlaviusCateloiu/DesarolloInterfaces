@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -83,7 +85,14 @@ public class IntroducirBarcos extends JFrame {
             }
 
             if (barcosColocados) {
-                CombateBarcos combate = new CombateBarcos();
+                CombateBarcos combate = new CombateBarcos(this.mapaPlayer1, new Mapa());
+                setVisible(false);
+                combate.addWindowListener(new WindowAdapter() {
+                    @Override
+                    public void windowClosed(WindowEvent e) {
+                        dispose();
+                    }
+                });
             } else {
                 JOptionPane.showMessageDialog(this, "Introduce todos los barcos para poder jugar contra la IA.", "Error", JOptionPane.ERROR_MESSAGE);
             }
