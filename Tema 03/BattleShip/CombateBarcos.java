@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.WindowAdapter;
 
 public class CombateBarcos extends JFrame {
     private JPanel jPCombate;
@@ -7,7 +8,6 @@ public class CombateBarcos extends JFrame {
     private JPanel jPMapaJugador;
     private JPanel jPMapaBot;
     private JButton jBSalirJuego;
-
     private Mapa mapaJugador;
     private Mapa mapaBot;
 
@@ -16,6 +16,7 @@ public class CombateBarcos extends JFrame {
         this.mapaJugador = mapaJugador;
         this.mapaBot = mapaBot;
         setContentPane(jPCombate);
+
 
         jBSalirJuego.addActionListener(a -> {
             this.dispose();

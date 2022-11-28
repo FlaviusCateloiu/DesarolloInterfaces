@@ -1,4 +1,6 @@
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Barco {
     private String nombre;
@@ -43,5 +45,16 @@ public class Barco {
 
     public void setColor(Color color) {
         this.color = color;
+    }
+
+    public static java.util.List<Barco> crearListaBarcos() {
+        List<Barco> barcos = new ArrayList<>();
+        barcos.add(new Barco("Aircraft", 5, Color.BLUE));
+        barcos.add(new Barco("Battleship", 4, Color.YELLOW));
+        barcos.add(new Barco("Submarine", 3, Color.GREEN));
+        barcos.add(new Barco("Cruiser", 3, Color.PINK));
+        barcos.add(new Barco("Destroyer", 2, Color.ORANGE));
+
+        return barcos;
     }
 }

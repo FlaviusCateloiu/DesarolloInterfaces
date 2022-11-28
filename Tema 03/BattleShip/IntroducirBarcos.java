@@ -24,7 +24,7 @@ public class IntroducirBarcos extends JFrame {
     public IntroducirBarcos() {
         super("Introducir Barcos al Mapa");
         this.barcos = new ArrayList<>();
-        crearListaBarcos();
+        this.barcos = Barco.crearListaBarcos();
         setContentPane(this.jPIntroducirBarcos);
 
         jCBSelectBarco.addActionListener(a -> {
@@ -85,7 +85,8 @@ public class IntroducirBarcos extends JFrame {
             }
 
             if (barcosColocados) {
-                CombateBarcos combate = new CombateBarcos(this.mapaPlayer1, new Mapa());
+                Ordenador ordenador = new Ordenador();
+                CombateBarcos combate = new CombateBarcos(this.mapaPlayer1, ordenador.crearMapa());
                 setVisible(false);
                 combate.addWindowListener(new WindowAdapter() {
                     @Override
@@ -115,15 +116,7 @@ public class IntroducirBarcos extends JFrame {
         return this.mapaPlayer1;
     }
 
-    private void crearListaBarcos() {
-        this.barcos.add(new Barco("Aircraft", 5, Color.BLUE));
-        this.barcos.add(new Barco("Battleship", 4, Color.YELLOW));
-        this.barcos.add(new Barco("Submarine", 3, Color.GREEN));
-        this.barcos.add(new Barco("Cruiser", 3, Color.PINK));
-        this.barcos.add(new Barco("Destroyer", 2, Color.ORANGE));
-    }
-
-    public void colocarBarco(int x, int y) {
+    private void colocarBarco(int x, int y) {
         switch (jCBSelectBarco.getSelectedItem().toString()) {
             case "Aircraft":
                 for (Barco b : barcos) {
@@ -153,7 +146,7 @@ public class IntroducirBarcos extends JFrame {
         }
     }
 
-    public void calcularPosBarco(Barco b, String nombreBarco, int x, int y) {
+    private void calcularPosBarco(Barco b, String nombreBarco, int x, int y) {
         if (b.getNombre().equalsIgnoreCase(nombreBarco)) {
             if (b.isIntroducido()) {
                 jErrorSelecBarco.setText("Error este barco ya esta introducido.");
