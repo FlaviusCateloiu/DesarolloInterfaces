@@ -20,7 +20,6 @@ public class TerceraVentana extends JFrame {
 
         instalarButton.addActionListener(a -> {
             fill();
-            aceptarButton.setEnabled(true);
         });
 
         atrasButton.addActionListener(a -> {
@@ -61,6 +60,7 @@ public class TerceraVentana extends JFrame {
                         throw new RuntimeException(e);
                     }
                 }
+                aceptarButton.setEnabled(true);
             }
         });
         hilo.start();

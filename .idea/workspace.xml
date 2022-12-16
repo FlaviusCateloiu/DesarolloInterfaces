@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tengo cositas">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DesarolloInterfaces_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema 01/BasicJavaExercises/Ejercicio05/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/TerceraVentana.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/TerceraVentana.java" afterDir="false" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Terminado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/CuartaVentana.form" beforeDir="false" afterPath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/CuartaVentana.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/CuartaVentana.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/CuartaVentana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/EnumerarPantallas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/EnumerarPantallas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/PrimeraVentana.form" beforeDir="false" afterPath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/PrimeraVentana.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/PrimeraVentana.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/PrimeraVentana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/SegundaVentana.form" beforeDir="false" afterPath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/SegundaVentana.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/SegundaVentana.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/SegundaVentana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/TerceraVentana.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema04/ProcesoDeInstalacion/TerceraVentana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664543664747</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Segunda Ventana para mover componentes o posicionar.">
-      <created>1665153614094</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1665153614094</updated>
     </task>
     <task id="LOCAL-00010" summary="Primera accion para los botones del ejemplo 02.">
       <created>1665154427157</created>
@@ -416,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669394482907</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Terminado">
+      <created>1671214141963</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1671214141963</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,7 +421,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Las clases de la agenda de Alejandro" />
     <MESSAGE value="Modificación lo de alejandro" />
     <MESSAGE value="Falta todos jajvajav" />
     <MESSAGE value="Falta las ventanas mostrar todo y buscar." />
@@ -456,6 +445,7 @@
     <MESSAGE value="Algo tengo xD" />
     <MESSAGE value="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco." />
     <MESSAGE value="Tengo cositas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tengo cositas" />
+    <MESSAGE value="Terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado" />
   </component>
 </project>
