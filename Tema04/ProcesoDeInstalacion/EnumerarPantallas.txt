@@ -1,4 +1,4 @@
 - La primera ventana hace referencia a introducir una ruta para guardar los datos.
 - La Segunda ventana es donde se pueden ver las condiciones de uso del programa, hay que aceptarlo y si quieres que se genere en el escritorio.
-- La Cuarta ventana es donde saldra una barra de progreso sobre la installation.
-- La última ventana es donde saldra que se ha instalado.
+- La Tercera ventana es donde saldra una barra de progreso sobre la installation.
+- La Cuarta ventana es donde saldra que se ha instalado.
