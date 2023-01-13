@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Terminado" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Subido lo de html">
+      <change afterPath="$PROJECT_DIR$/Tema 05/Ejercicio 01 Formulario Web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 05/Ejercicio 01 Formulario Web/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 01 JavaScript Básico/AllOperations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 01 JavaScript Básico/HolaMundoConsola.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 01 JavaScript Básico/HolaMundoVentana.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 01 JavaScript Básico/codigo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 01 JavaScript Básico/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +24,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,11 +45,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -62,13 +78,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664543664747</updated>
       <workItem from="1673619371748" duration="81000" />
-    </task>
-    <task id="LOCAL-00010" summary="Primera accion para los botones del ejemplo 02.">
-      <created>1665154427157</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1665154427157</updated>
+      <workItem from="1673619463933" duration="93000" />
+      <workItem from="1673619851700" duration="3018000" />
     </task>
     <task id="LOCAL-00011" summary="Ejemplos de eventos en la ventana al minimizar y volver a la ventana tambien puedes hacer cuando se cierre o se abra el boton">
       <created>1665156118442</created>
@@ -406,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671214141963</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Subido lo de html">
+      <created>1673619516639</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1673619516639</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modificación lo de alejandro" />
     <MESSAGE value="Falta todos jajvajav" />
     <MESSAGE value="Falta las ventanas mostrar todo y buscar." />
     <MESSAGE value="Mejorando la ventana mostrar todos." />
@@ -449,6 +466,7 @@
     <MESSAGE value="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco." />
     <MESSAGE value="Tengo cositas" />
     <MESSAGE value="Terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminado" />
+    <MESSAGE value="Subido lo de html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subido lo de html" />
   </component>
 </project>
