@@ -1,0 +1,56 @@
+h1 {
+    color: darkviolet;
+    text-align: center;
+}
+
+#pUno {
+    color: #FF0000;
+    font-size: 40px;
+}
+
+#pDos {
+    font-size: small;
+}
+
+#pTres {
+    font-size: medium;
+}
+
+#pCuatro {
+    font-size: xx-large;
+    color: #FF00FF;
+}
+
+#pCinco {
+    font-size: xx-small;
+}
+
+#pSeis {
+    font-size: 2%;
+    color: blue;
+}
+
+table {
+    border-style: double;
+}
+
+.verde {
+    background-color: skyblue;
+}
+td {
+    color: green;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#numero {
+    list-style: decimal;
+}
+
+#minuscula {
+    list-style: lower-alpha;
+}
+
+#romano {
+    list-style: upper-roman;
+}
