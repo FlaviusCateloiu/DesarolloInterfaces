@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 04 Arrays</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="" method="get">
+            <label for="numero-dni">Numero del DNI: </label>
+            <input id="numero-dni" type="number" name="numero-dni">
+            <p id="error-num"></p><br>
+            <label for="letra-dni">Letra del DNI: </label>
+            <input  id="letra-dni" type="text" name="letra-dni" maxlength="1">
+            <p id="error-letra"></p>
+            <p id="letra-correcta"></p>
+            <input type="button" value="Comprobar" onclick="comprobarDNI()">
+
+            <script src="codigo.js"></script>
+        </form>
+    </body>
+</html>
