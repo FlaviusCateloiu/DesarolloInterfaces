@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Ejercicio 03 de Arrays terminado.">
-      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/codigo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/index.html" afterDir="false" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/codigo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/codigo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,14 +80,7 @@
       <workItem from="1673619463933" duration="93000" />
       <workItem from="1673619851700" duration="8831000" />
       <workItem from="1674063703583" duration="42000" />
-      <workItem from="1674223625244" duration="9255000" />
-    </task>
-    <task id="LOCAL-00016" summary="Parte a del ejercicio 03">
-      <created>1665423499053</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1665423499053</updated>
+      <workItem from="1674223625244" duration="11784000" />
     </task>
     <task id="LOCAL-00017" summary="Parte c del ejercicio 03">
       <created>1665424717246</created>
@@ -425,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674230973203</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript">
+      <created>1674232908255</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1674232908255</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +443,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Terminado todo." />
     <MESSAGE value="Terminado de comentar." />
     <MESSAGE value="Empezando el ejercicio." />
     <MESSAGE value="Faltan las comprobaciones de los demas campos." />
@@ -468,6 +467,7 @@
     <MESSAGE value="Ya esta el dos de JavaScript" />
     <MESSAGE value="Ya tengo el ejercicio 01 del ejercicio de arrays" />
     <MESSAGE value="Ejercicio 03 de Arrays terminado." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 03 de Arrays terminado." />
+    <MESSAGE value="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript" />
   </component>
 </project>
