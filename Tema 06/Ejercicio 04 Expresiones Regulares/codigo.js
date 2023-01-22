@@ -32,7 +32,7 @@ function validarCampos() {
     }
 
     //Apartado 3.
-    if (soloLetras.match(/^[a-zA-ZÀ-ÿ]+$/) != null) {
+    if (letrasEspTildes.match(/^[a-zA-ZÀ-ÿ\s]+$/) != null) {
         console.log("3.- Valido");
     } else {
         console.log("3.- No valido");
