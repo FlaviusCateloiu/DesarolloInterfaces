@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="He corregido una falta de ortografia">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 05/Ejercicio 01 Formulario Web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 05/Ejercicio 01 Formulario Web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 05/Ejercicio 01 Formulario Web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 05/Ejercicio 01 Formulario Web/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/codigo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/codigo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,7 @@
       <workItem from="1669568593940" duration="884000" />
       <workItem from="1669633697622" duration="3884000" />
       <workItem from="1671129033731" duration="2573000" />
+      <workItem from="1674422867932" duration="1759000" />
     </task>
     <task id="LOCAL-00001" summary="Falta el ejercicio02 de los ejercicios.">
       <created>1664550407908</created>
@@ -398,7 +398,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669569474752</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="He corregido una falta de ortografia">
+      <created>1674406017240</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1674406017240</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Tengo que terminar la comprobaciones.">
+      <created>1674406278520</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1674406278520</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,8 +430,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Parte c del ejercicio 03" />
-    <MESSAGE value="Faltan las demas del ejercicio 2 apartado 4" />
     <MESSAGE value="La opcion d del apartado 4 del ejercicio 2 es esto." />
     <MESSAGE value="La opcion e del apartado 4 del ejercicio 2 es esto." />
     <MESSAGE value="Finalizado el ejercicio con todos los apartados." />
@@ -441,6 +453,8 @@
     <MESSAGE value="Algo tengo por ahora." />
     <MESSAGE value="Ya tengo para recoger los barcos me falta la partida." />
     <MESSAGE value="Algo tengo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Algo tengo." />
+    <MESSAGE value="He corregido una falta de ortografia" />
+    <MESSAGE value="Tengo que terminar la comprobaciones." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tengo que terminar la comprobaciones." />
   </component>
 </project>

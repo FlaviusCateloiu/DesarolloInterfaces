@@ -37,4 +37,14 @@ function validarCampos() {
     } else {
         console.log("3.- No valido");
     }
+
+    //Apartado 4.
+    if (nomApell.match(/^[A-Z][a-zÀ-ÿ]+[\s][A-Z][a-zÀ-ÿ]+[\s][A-Z]'?-?[a-zÀ-ÿ]+$/) != null) {
+        console.log("4.- Valido");
+    } else {
+        console.log("4.- No valido");
+    }
+
+    //Apartado 5.
+
 }
