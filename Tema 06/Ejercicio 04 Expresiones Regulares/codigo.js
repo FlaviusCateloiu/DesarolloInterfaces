@@ -53,5 +53,37 @@ function validarCampos() {
     }
 
     //Apartado 6.
+    if (numeroEnteroDecimales.match(/^\d+([,]\d+)?$/) != null) {
+        console.log("6.- Valido");
+    } else {
+        console.log("6.- No valido");
+    }
 
+    //Apartado 7.
+    if (numeroEntPosNeg.match(/^-?\d+$/) != null) {
+        console.log("7.- Valido");
+    } else {
+        console.log("7.- No valido");
+    }
+
+    //Apartado 8.
+    if (numeroRealesSepar.match(/^\d{1,3}(?:,\d{3})*(?:\.\d+)$/) != null) {
+        console.log("8.- Valido");
+    } else {
+        console.log("8.- No valido");
+    }
+
+    //Apartado 9.
+    if (validarFecha.match(/^\d{2}\/\d{2}\/\d{4}$/) != null) {
+        console.log("9.- Valido");
+    } else {
+        console.log("9.- No valido");
+    }
+
+    //Apartado 10.
+    if (validarHoras12.match(/^\d{1,2}:\d{2}\s[AP]M$/) != null) {
+        console.log("10.- Valido");
+    } else {
+        console.log("10.- No valido");
+    }
 }

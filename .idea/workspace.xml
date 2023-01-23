@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Me faltan las comprobaciones">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tengo hasta el apartado 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/codigo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/codigo.js" afterDir="false" />
     </list>
@@ -18,9 +18,6 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -40,18 +37,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -60,7 +53,6 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Tema 06/Ejercicio 03 Arrays y condicionales/Ejercicio 01" />
       <recent name="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -75,12 +67,126 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664543664747</updated>
-      <workItem from="1673619371748" duration="81000" />
-      <workItem from="1673619463933" duration="93000" />
-      <workItem from="1673619851700" duration="8831000" />
-      <workItem from="1674063703583" duration="42000" />
-      <workItem from="1674223625244" duration="11784000" />
-      <workItem from="1674497796480" duration="888000" />
+      <workItem from="1668959903190" duration="1936000" />
+      <workItem from="1668966581911" duration="196000" />
+      <workItem from="1669564874863" duration="142000" />
+      <workItem from="1669567618902" duration="171000" />
+      <workItem from="1669568593940" duration="884000" />
+      <workItem from="1669633697622" duration="3884000" />
+      <workItem from="1671129033731" duration="2573000" />
+      <workItem from="1674422867932" duration="1759000" />
+    </task>
+    <task id="LOCAL-00001" summary="Falta el ejercicio02 de los ejercicios.">
+      <created>1664550407908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664550407908</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creacion del ejercicio 02 falta hacer la implementacion de un metodo de la Clase Math">
+      <created>1664554728553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664554728553</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ejercicio dos en proceso">
+      <created>1664556784114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664556784114</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Corregido el ejercicio05">
+      <created>1664557335906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664557335906</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sdfsd">
+      <created>1664557512798</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664557512798</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Primera Ventana">
+      <created>1664902300580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664902300580</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Primera Ventana">
+      <created>1664902541815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664902541815</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Segunda Ventana">
+      <created>1665152488868</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665152488868</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Segunda Ventana para mover componentes o posicionar.">
+      <created>1665153614094</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665153614094</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Primera accion para los botones del ejemplo 02.">
+      <created>1665154427157</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665154427157</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ejemplos de eventos en la ventana al minimizar y volver a la ventana tambien puedes hacer cuando se cierre o se abra el boton">
+      <created>1665156118442</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665156118442</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Terminado el primer apartado del ejercicio1">
+      <created>1665160622470</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665160622470</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Terminado el primer apartado del ejercicio1">
+      <created>1665161064885</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665161064885</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Terminado el segundo apartado del ejercicio2">
+      <created>1665162271887</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665162271887</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Exercise 2_3 is finished">
+      <created>1665422486751</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665422486751</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Parte a del ejercicio 03">
+      <created>1665423499053</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665423499053</updated>
     </task>
     <task id="LOCAL-00017" summary="Parte c del ejercicio 03">
       <created>1665424717246</created>
@@ -257,175 +363,56 @@
       <option name="project" value="LOCAL" />
       <updated>1666970915818</updated>
     </task>
-    <task id="LOCAL-00042" summary="Ejercicio Terminado con exito.">
-      <created>1667579392386</created>
+    <task id="LOCAL-00042" summary="Faltan muchas cosas">
+      <created>1668955353426</created>
       <option name="number" value="00042" />
       <option name="presentableId" value="LOCAL-00042" />
       <option name="project" value="LOCAL" />
-      <updated>1667579392386</updated>
+      <updated>1668955353426</updated>
     </task>
-    <task id="LOCAL-00043" summary="Ejercicio Terminado con exito.">
-      <created>1667579909632</created>
+    <task id="LOCAL-00043" summary="No tengo ni idea de como hacer el mapa para que clique el usuario y se cambie el color porque ha sido clicado.">
+      <created>1668961412995</created>
       <option name="number" value="00043" />
       <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1667579909632</updated>
+      <updated>1668961412995</updated>
     </task>
-    <task id="LOCAL-00044" summary="Crecion Battle Ship">
-      <created>1667925816906</created>
+    <task id="LOCAL-00044" summary="Algo tengo por ahora.">
+      <created>1668961847574</created>
       <option name="number" value="00044" />
       <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1667925816906</updated>
+      <updated>1668961847574</updated>
     </task>
-    <task id="LOCAL-00045" summary="Tablero hecho">
-      <created>1667929762880</created>
+    <task id="LOCAL-00045" summary="Ya tengo para recoger los barcos me falta la partida.">
+      <created>1669560090829</created>
       <option name="number" value="00045" />
       <option name="presentableId" value="LOCAL-00045" />
       <option name="project" value="LOCAL" />
-      <updated>1667929762880</updated>
+      <updated>1669560090829</updated>
     </task>
-    <task id="LOCAL-00046" summary="Aprender a utilizar la GUI de Intellig">
-      <created>1668529171072</created>
+    <task id="LOCAL-00046" summary="Algo tengo.">
+      <created>1669569474752</created>
       <option name="number" value="00046" />
       <option name="presentableId" value="LOCAL-00046" />
       <option name="project" value="LOCAL" />
-      <updated>1668529171072</updated>
+      <updated>1669569474752</updated>
     </task>
-    <task id="LOCAL-00047" summary="Terminada la primera ventana que es la principal.">
-      <created>1668530270582</created>
+    <task id="LOCAL-00047" summary="He corregido una falta de ortografia">
+      <created>1674406017240</created>
       <option name="number" value="00047" />
       <option name="presentableId" value="LOCAL-00047" />
       <option name="project" value="LOCAL" />
-      <updated>1668530270582</updated>
+      <updated>1674406017240</updated>
     </task>
-    <task id="LOCAL-00048" summary="Terminada la primera ventana que es la principal.">
-      <created>1668530424592</created>
+    <task id="LOCAL-00048" summary="Tengo que terminar la comprobaciones.">
+      <created>1674406278520</created>
       <option name="number" value="00048" />
       <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1668530424592</updated>
+      <updated>1674406278520</updated>
     </task>
-    <task id="LOCAL-00049" summary="Terminada la primera ventana que es la principal.">
-      <created>1668530550239</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1668530550239</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Terminada la primera ventana que es la principal.">
-      <created>1668530663187</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1668530663188</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Estoy haciendo que introduzca los barcos en el mapa.">
-      <created>1668789457403</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1668789457404</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Algo nuevo tengo.">
-      <created>1669059701083</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1669059701084</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Algo tengo xD">
-      <created>1669135372458</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1669135372458</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco.">
-      <created>1669140156548</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1669140156548</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco.">
-      <created>1669140268729</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1669140268729</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Tengo cositas">
-      <created>1669391387053</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1669391387054</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Tengo cositas">
-      <created>1669394482907</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1669394482907</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Terminado">
-      <created>1671214141963</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1671214141963</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Subido lo de html">
-      <created>1673619516639</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1673619516639</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Terminado el ejercicio sencillo de JavaScript">
-      <created>1673625488373</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1673625488373</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Estoy con el formulario de HTML">
-      <created>1673628174251</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1673628174251</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Ya esta el dos de JavaScript">
-      <created>1673897048395</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1673897048395</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Ya tengo el ejercicio 01 del ejercicio de arrays">
-      <created>1674224067525</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1674224067525</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Ejercicio 03 de Arrays terminado.">
-      <created>1674230973203</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1674230973203</updated>
-    </task>
-    <task id="LOCAL-00065" summary="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript">
-      <created>1674232908255</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1674232908255</updated>
-    </task>
-    <option name="localTasksCounter" value="66" />
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,6 +430,17 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="La opcion d del apartado 4 del ejercicio 2 es esto." />
+    <MESSAGE value="La opcion e del apartado 4 del ejercicio 2 es esto." />
+    <MESSAGE value="Finalizado el ejercicio con todos los apartados." />
+    <MESSAGE value="Las clases de la agenda de Alejandro" />
+    <MESSAGE value="Modificación lo de alejandro" />
+    <MESSAGE value="Falta todos jajvajav" />
+    <MESSAGE value="Falta las ventanas mostrar todo y buscar." />
+    <MESSAGE value="Mejorando la ventana mostrar todos." />
+    <MESSAGE value="Me falta mostrar todos y buscar persona." />
+    <MESSAGE value="Mostrar a todos las personas de la agenda ya a termindo." />
+    <MESSAGE value="Terminado todo." />
     <MESSAGE value="Terminado de comentar." />
     <MESSAGE value="Empezando el ejercicio." />
     <MESSAGE value="Faltan las comprobaciones de los demas campos." />
@@ -450,24 +448,13 @@
     <MESSAGE value="Falta guardar el String de todos los datos del metodo guardarInformacion en el archivo csv." />
     <MESSAGE value="Formulario Terminado con exito." />
     <MESSAGE value="Creacion de la diana horizontal." />
-    <MESSAGE value="Ejercicio Terminado con exito." />
-    <MESSAGE value="Crecion Battle Ship" />
-    <MESSAGE value="Tablero hecho" />
-    <MESSAGE value="Aprender a utilizar la GUI de Intellig" />
-    <MESSAGE value="Terminada la primera ventana que es la principal." />
-    <MESSAGE value="Estoy haciendo que introduzca los barcos en el mapa." />
-    <MESSAGE value="Algo nuevo tengo." />
-    <MESSAGE value="Algo tengo xD" />
-    <MESSAGE value="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco." />
-    <MESSAGE value="Tengo cositas" />
-    <MESSAGE value="Terminado" />
-    <MESSAGE value="Subido lo de html" />
-    <MESSAGE value="Terminado el ejercicio sencillo de JavaScript" />
-    <MESSAGE value="Estoy con el formulario de HTML" />
-    <MESSAGE value="Ya esta el dos de JavaScript" />
-    <MESSAGE value="Ya tengo el ejercicio 01 del ejercicio de arrays" />
-    <MESSAGE value="Ejercicio 03 de Arrays terminado." />
-    <MESSAGE value="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript" />
-    <option name="LAST_COMMIT_MESSAGE" value="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript" />
+    <MESSAGE value="Faltan muchas cosas" />
+    <MESSAGE value="No tengo ni idea de como hacer el mapa para que clique el usuario y se cambie el color porque ha sido clicado." />
+    <MESSAGE value="Algo tengo por ahora." />
+    <MESSAGE value="Ya tengo para recoger los barcos me falta la partida." />
+    <MESSAGE value="Algo tengo." />
+    <MESSAGE value="He corregido una falta de ortografia" />
+    <MESSAGE value="Tengo que terminar la comprobaciones." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tengo que terminar la comprobaciones." />
   </component>
 </project>
