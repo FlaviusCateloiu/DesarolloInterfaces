@@ -46,5 +46,12 @@ function validarCampos() {
     }
 
     //Apartado 5.
+    if (precioDosDecimales.match(/^\d+,\d{2}$/) != null) {
+        console.log("5.- Valido");
+    } else {
+        console.log("5.- No valido");
+    }
+
+    //Apartado 6.
 
 }
