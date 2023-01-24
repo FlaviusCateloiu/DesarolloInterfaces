@@ -74,16 +74,44 @@ function validarCampos() {
     }
 
     //Apartado 9.
-    if (validarFecha.match(/^\d{2}\/\d{2}\/\d{4}$/) != null) {
+    if (validarFecha.match(/^([12][0-9]|3[01]|0[1-9])\/(0[1-9]|1[0-2])\/\d{4}$/) != null) {
         console.log("9.- Valido");
     } else {
         console.log("9.- No valido");
     }
 
     //Apartado 10.
-    if (validarHoras12.match(/^\d{1,2}:\d{2}\s[AP]M$/) != null) {
+    if (validarHoras12.match(/^(1?[0-2]|0?[1-9]):[0-5][0-9]\s[AaPp][Mm]$/) != null) {
         console.log("10.- Valido");
     } else {
         console.log("10.- No valido");
+    }
+
+    //Apartado 11.
+    if (validarHoras24.match(/^(1?[0-9]|0?[1-9]|2?[0-3]):[0-5][0-9]$/) != null) {
+        console.log("11.- Valido");
+    } else {
+        console.log("11.- No valido");
+    }
+
+    //Apartado 12.
+    if (validarContrasenya.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}$/) != null) {
+        console.log("12.- Valido");
+    } else {
+        console.log("12.- No valido");
+    }
+
+    //Apartado 13.
+    if (validarUsuario.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[-_])[A-Za-z\d-_]{3,16}$/) != null) {
+        console.log("13.- Valido");
+    } else {
+        console.log("13.- No valido");
+    }
+
+    //Apartado 14.
+    if (validarEmail.match(/^$/) != null) {
+        console.log("14.- Valido");
+    } else {
+        console.log("14.- No valido");
     }
 }
