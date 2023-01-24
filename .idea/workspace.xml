@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Me faltan las comprobaciones">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Terminado con exito.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/codigo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 04 Expresiones Regulares/codigo.js" afterDir="false" />
     </list>
@@ -81,13 +81,6 @@
       <workItem from="1674063703583" duration="42000" />
       <workItem from="1674223625244" duration="11784000" />
       <workItem from="1674497796480" duration="888000" />
-    </task>
-    <task id="LOCAL-00018" summary="Faltan las demas del ejercicio 2 apartado 4">
-      <created>1665426716782</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1665426716782</updated>
     </task>
     <task id="LOCAL-00019" summary="La opcion d del apartado 4 del ejercicio 2 es esto.">
       <created>1665506184132</created>
@@ -425,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674578647058</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Terminado con exito.">
+      <created>1674581291618</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1674581291618</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +443,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Empezando el ejercicio." />
     <MESSAGE value="Faltan las comprobaciones de los demas campos." />
     <MESSAGE value="Falta guardar en un archivo." />
     <MESSAGE value="Falta guardar el String de todos los datos del metodo guardarInformacion en el archivo csv." />
@@ -468,6 +467,7 @@
     <MESSAGE value="Ejercicio 03 de Arrays terminado." />
     <MESSAGE value="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript" />
     <MESSAGE value="Me faltan las comprobaciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Me faltan las comprobaciones" />
+    <MESSAGE value="Terminado con exito." />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado con exito." />
   </component>
 </project>
