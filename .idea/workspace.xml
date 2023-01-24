@@ -82,13 +82,6 @@
       <workItem from="1674223625244" duration="11784000" />
       <workItem from="1674497796480" duration="888000" />
     </task>
-    <task id="LOCAL-00017" summary="Parte c del ejercicio 03">
-      <created>1665424717246</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1665424717246</updated>
-    </task>
     <task id="LOCAL-00018" summary="Faltan las demas del ejercicio 2 apartado 4">
       <created>1665426716782</created>
       <option name="number" value="00018" />
@@ -425,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674232908255</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Me faltan las comprobaciones">
+      <created>1674578647058</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1674578647058</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +443,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Terminado de comentar." />
     <MESSAGE value="Empezando el ejercicio." />
     <MESSAGE value="Faltan las comprobaciones de los demas campos." />
     <MESSAGE value="Falta guardar en un archivo." />
@@ -468,6 +467,7 @@
     <MESSAGE value="Ya tengo el ejercicio 01 del ejercicio de arrays" />
     <MESSAGE value="Ejercicio 03 de Arrays terminado." />
     <MESSAGE value="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript" />
-    <option name="LAST_COMMIT_MESSAGE" value="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript" />
+    <MESSAGE value="Me faltan las comprobaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Me faltan las comprobaciones" />
   </component>
 </project>

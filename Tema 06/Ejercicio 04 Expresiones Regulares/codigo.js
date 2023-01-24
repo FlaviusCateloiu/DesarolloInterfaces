@@ -109,9 +109,30 @@ function validarCampos() {
     }
 
     //Apartado 14.
-    if (validarEmail.match(/^$/) != null) {
+    if (validarEmail.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/) != null) {
         console.log("14.- Valido");
     } else {
         console.log("14.- No valido");
+    }
+
+    //Apartado 15.
+    if (validarUrl.match(/^https?:\/\/[\w\-]+(\.[\w\-]+)+[/#?]?.*$/) != null) {
+        console.log("15.- Valido");
+    } else {
+        console.log("15.- No valido");
+    }
+
+    //Apartado 16.
+    if (validarIP4.match(/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/) != null) {
+        console.log("16.- Valido");
+    } else {
+        console.log("16.- No valido");
+    }
+
+    //validarColorHexa 17.
+    if (validarIP4.match(/^#([a-fA-F\d]{6}|[a-fA-F\d]{3})$/) != null) {
+        console.log("17.- Valido");
+    } else {
+        console.log("17.- No valido");
     }
 }
