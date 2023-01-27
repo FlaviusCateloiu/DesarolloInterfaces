@@ -17,7 +17,7 @@ class Estudiante extends Persona {
     }
 
     registrar() {
-        console.log("Estudiante registrado.");
+        console.log("Estudiante registrado en el curso: " + this.curso + " y grupo: " + this.grupo);
     }
 }
 
@@ -29,7 +29,7 @@ class Profesor extends Persona {
     }
 
     asignar() {
-        console.log("Profesor asignado.")
+        console.log("Profesor asignado a la asignatura: " + this.asignatura + " y nivel: " + this.nivel);
     }
 }
 
