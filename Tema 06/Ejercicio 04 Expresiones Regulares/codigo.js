@@ -130,7 +130,7 @@ function validarCampos() {
     }
 
     //validarColorHexa 17.
-    if (validarIP4.match(/^#([a-fA-F\d]{6}|[a-fA-F\d]{3})$/) != null) {
+    if (validarColorHexa.match(/^#([a-fA-F\d]{6}|[a-fA-F\d]{3})$/) != null) {
         console.log("17.- Valido");
     } else {
         console.log("17.- No valido");

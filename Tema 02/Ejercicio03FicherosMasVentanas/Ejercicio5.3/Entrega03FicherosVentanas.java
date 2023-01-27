@@ -16,9 +16,9 @@ public class Entrega03FicherosVentanas {
 
     public Entrega03FicherosVentanas(ArrayList<Persona> listaPersonas) {
         JFrame ventanaPrincipal = new JFrame("Ventana Principal");
-        this.nuevaPersonaPrincipal = new JButton("Nueva Persona");
+        this.nuevaPersonaPrincipal = new JButton("Nueva Codigo");
         this.mostrarTodosPrincipal = new JButton("Mostrar Todos");
-        this.buscarPersonaPrincipal = new JButton("Buscar Persona");
+        this.buscarPersonaPrincipal = new JButton("Buscar Codigo");
 
 
         // Ventana principal.
