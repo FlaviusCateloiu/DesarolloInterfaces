@@ -16,3 +16,31 @@ function expresionRegulares() {
         console.log("La email no es valida.");
     }
 }
+
+function escapeHTML(text) {
+    var replacements = [["&", "&amp;"], ["\"", "&quot;"],
+        ["<", "&lt;"], [">", "&gt;"]];
+    return text.replace(/<>&"/g, function(replace) {
+       return replacements[replace]
+    });
+}
+
+//Funcion para invertir el nombre.
+function invertirNombreApellido() {
+    let nombreApellido = document.getElementById("nom-ape").value;
+
+    if(nombreApellido.match(/^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$/) != null){
+        let array = nombreApellido.split(' ');
+        let output = '';
+        for(let i = array.length-1; i>=0; i--){
+            if(i == array.length-1) {
+                output = array[i] + ', ';
+            } else {
+                output += array[i];
+            }
+        }
+        console.log(output);
+    }else{
+        console.log("No se ha introducido un Nombre Apellido.")
+    }
+}
