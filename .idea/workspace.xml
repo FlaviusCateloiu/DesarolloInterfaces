@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Terminado con exito.">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tengo que terminar el apartado 05">
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 06/codigo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 06/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 07/codigo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 07/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 08/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 08/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 09/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 09/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 05/codigo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 05/codigo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 05/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 04/codigo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 04/codigo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +54,7 @@
     &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
     &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/flaars/IdeaProjects/DesarolloInterfaces/Tema 06/Ejercicio 05/Apartado 02&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -60,6 +68,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 02" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tema 06/Ejercicio 03 Arrays y condicionales/Ejercicio 01" />
       <recent name="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3" />
@@ -82,27 +93,11 @@
       <workItem from="1674063703583" duration="42000" />
       <workItem from="1674223625244" duration="11784000" />
       <workItem from="1674497796480" duration="888000" />
-    </task>
-    <task id="LOCAL-00019" summary="La opcion d del apartado 4 del ejercicio 2 es esto.">
-      <created>1665506184132</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1665506184133</updated>
-    </task>
-    <task id="LOCAL-00020" summary="La opcion e del apartado 4 del ejercicio 2 es esto.">
-      <created>1665507704091</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1665507704091</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Finalizado el ejercicio con todos los apartados.">
-      <created>1665755268562</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1665755268562</updated>
+      <workItem from="1674742684790" duration="11000" />
+      <workItem from="1674749165346" duration="918000" />
+      <workItem from="1674750379137" duration="32000" />
+      <workItem from="1674828516196" duration="11922000" />
+      <workItem from="1675180564090" duration="4544000" />
     </task>
     <task id="LOCAL-00022" summary="Las clases de la agenda de Alejandro">
       <created>1665759965941</created>
@@ -426,7 +421,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674581291618</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Terminado con exito.">
+      <created>1674581298416</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1674581298416</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Estoy creando las carpetas y los archivos falta por realizar todos los apartados.">
+      <created>1674749751124</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1674749751125</updated>
+    </task>
+    <task id="LOCAL-00070" summary="He hecho hasta el apartado 04 ahora tengo que empezar el apartado 05.">
+      <created>1674837376786</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1674837376787</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,8 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Faltan las comprobaciones de los demas campos." />
-    <MESSAGE value="Falta guardar en un archivo." />
     <MESSAGE value="Falta guardar el String de todos los datos del metodo guardarInformacion en el archivo csv." />
     <MESSAGE value="Formulario Terminado con exito." />
     <MESSAGE value="Creacion de la diana horizontal." />
@@ -469,6 +483,8 @@
     <MESSAGE value="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript" />
     <MESSAGE value="Me faltan las comprobaciones" />
     <MESSAGE value="Terminado con exito." />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminado con exito." />
+    <MESSAGE value="Estoy creando las carpetas y los archivos falta por realizar todos los apartados." />
+    <MESSAGE value="He hecho hasta el apartado 04 ahora tengo que empezar el apartado 05." />
+    <option name="LAST_COMMIT_MESSAGE" value="He hecho hasta el apartado 04 ahora tengo que empezar el apartado 05." />
   </component>
 </project>
