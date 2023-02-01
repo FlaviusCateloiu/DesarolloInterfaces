@@ -1,41 +1,19 @@
-function muestraInformacion(theEvent) {
-    let evento = theEvent || window.event;
-    switch (evento.type) {
-        case 'mousemove':
-            document.getElementById("raton").style.backgroundColor = '#FFFFFF';
-            let coordenadaXRelativa, coordenadaYRelativa, coordenadaXAbsoluta, coordenadaYAbsoluta;
-            if (navigator.userAgent.toLowerCase().indexOf("msie") != -1) {
-                if (document.documentElement && document.documentElement.scrollTop) {
-                    coordenadaXAbsoluta = evento.clientX + document.documentElement.scrollLeft;
-                    coordenadaYAbsoluta = evento.clientY + document.documentElement.scrollTop;
-                } else {
-                    coordenadaXAbsoluta = evento.clientX + document.body.scrollLeft;
-                    coordenadaYAbsoluta = evento.clientY + document.body.scrollTop;
-                }
-            } else {
-                coordenadaXAbsoluta = evento.pageX;
-                coordenadaYAbsoluta = evento.pageY;
-            }
-            coordenadaXRelativa = evento.clientX;
-            coordenadaYRelativa = evento.clientY;
+function muestraInformacion() {
+    window.addEventListener("mousemove", function (evt) {
+        let raton = document.getElementById("raton");
+        raton.children[1].innerHTML = "Navegador [" + evt.screenX + ", " + evt.screenY + "]" + "<br>" + "Pagina [" + evt.pageX + ", " + evt.pageY + "]";
+        raton.style.backgroundColor = "#FFFFFF";
+        let teclado = document.getElementById("teclado");
+        teclado.style.backgroundColor = "#FFFFFF";
 
-            document.getElementById("raton").innerHTML += "<p>Navigator [" + coordenadaXRelativa + ", " + coordenadaYRelativa + "]</p>";
-            document.getElementById("raton").innerHTML += "<p>Pagina [" + coordenadaXAbsoluta + ", " + coordenadaYAbsoluta + "]</p>";
-            break;
-        case 'keypress':
-            document.getElementById("teclado").style.backgroundColor = '#CCE6FF';
-            let caracter = evento.charCode || evento.keyCode;
-            let letra = String.fromCharCode(caracter);
-            let codigo = letra.charCodeAt(0);
-            document.getElementById("teclado").innerHTML += "<p>Caracter [" + letra + "]</p>";
-            document.getElementById("teclado").innerHTML += "<p>Pagina [" + codigo + "]</p>";
-            break;
-        case 'click':
-            document.getElementById('raton').style.backgroundColor = '#FFFFCC';
-            break;
-    }
+    });
+    window.addEventListener("keydown", function (evt) {
+        let teclado = document.getElementById("teclado");
+        teclado.children[1].innerHTML = "Carácter [" + evt.key +"]" + "<br>" + "Código [" + evt.key.charCodeAt(0) +"]"
+        teclado.style.backgroundColor = "#CCE6FF";
+    })
+    window.addEventListener("mousedown", function () {
+        let raton = document.getElementById("raton");
+        raton.style.backgroundColor = "#FFFFCC";
+    });
 }
-
-document.onmousemove = muestraInformacion();
-document.onkeypress = muestraInformacion();
-document.onclick = muestraInformacion();
