@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 11/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 11/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 12/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 12/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 06 Predecir el futuro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 06 Predecir el futuro/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 10/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,14 +83,8 @@
       <workItem from="1674223625244" duration="11784000" />
       <workItem from="1674497796480" duration="888000" />
       <workItem from="1675252122522" duration="1378000" />
-      <workItem from="1675284934064" duration="1383000" />
-    </task>
-    <task id="LOCAL-00022" summary="Las clases de la agenda de Alejandro">
-      <created>1665759965941</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1665759965941</updated>
+      <workItem from="1675284934064" duration="1511000" />
+      <workItem from="1675416243173" duration="2387000" />
     </task>
     <task id="LOCAL-00023" summary="Las clases de la agenda de Alejandro">
       <created>1665760005272</created>
@@ -431,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675285208878</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Apartado 12 terminado. Me falta el 13">
+      <created>1675286456324</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1675286456324</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Falta guardar el String de todos los datos del metodo guardarInformacion en el archivo csv." />
     <MESSAGE value="Formulario Terminado con exito." />
     <MESSAGE value="Creacion de la diana horizontal." />
     <MESSAGE value="Ejercicio Terminado con exito." />
@@ -474,6 +471,7 @@
     <MESSAGE value="Terminado con exito." />
     <MESSAGE value="Apartado 09 terminado." />
     <MESSAGE value="Apartado 10 terminado." />
-    <option name="LAST_COMMIT_MESSAGE" value="Apartado 10 terminado." />
+    <MESSAGE value="Apartado 12 terminado. Me falta el 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apartado 12 terminado. Me falta el 13" />
   </component>
 </project>
