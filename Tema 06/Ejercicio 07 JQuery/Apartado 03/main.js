@@ -1,19 +1,6 @@
 /**
  * Función que pinta todos los elementos menos los botones en color rojo
  */
-$(document).ready(function () {
-    $("#cambiarTodo").click(function () {
-        $("h1, h2, p").removeClass().addClass("rojo");
-    });
-
-    $("#reset").click(function () {
-        $("h1, h2, p").removeClass().addClass("negro");
-    });
-
-    $("h1, h2, p").click(function () {
-        $(this).removeClass().addClass("verde");
-    });
-});
 
 /**
  * Función que pinta el elemento pulsado en color verde
@@ -27,3 +14,16 @@ $(document).ready(function () {
  * Inicializa las funciones tras cargar el documento y añade eventos
  * a cada uno de los elementos correspondientes.
  */
+$(document).ready(function () {
+    $("#cambiarTodo").click(function () {
+        $("h1, h2, p").removeClass().addClass("rojo");
+    });
+
+    $("#reset").click(function () {
+        $("h1, h2, p").removeClass();
+    });
+
+    $("h1, h2, p").click(function () {
+        $(this).removeClass().addClass("verde");
+    });
+});
