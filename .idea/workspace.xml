@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Apartado 03 ya esta">
-      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 07 JQuery/Apartado 04/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 07 JQuery/Apartado 04/main.js" afterDir="false" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 07 JQuery/Apartado 05/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 07 JQuery/Apartado 05/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,6 @@
     &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
     &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/flaars/IdeaProjects/DesarolloInterfaces/Tema 06/Ejercicio 05/Apartado 02&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -61,9 +60,6 @@
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 02" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tema 06/Ejercicio 03 Arrays y condicionales/Ejercicio 01" />
       <recent name="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3" />
@@ -86,15 +82,44 @@
       <workItem from="1674063703583" duration="42000" />
       <workItem from="1674223625244" duration="11784000" />
       <workItem from="1674497796480" duration="888000" />
-      <workItem from="1674742684790" duration="11000" />
-      <workItem from="1674749165346" duration="918000" />
-      <workItem from="1674750379137" duration="32000" />
-      <workItem from="1674828516196" duration="11922000" />
-      <workItem from="1675180564090" duration="4544000" />
-      <workItem from="1675438438741" duration="2626000" />
-      <workItem from="1675867178992" duration="11000" />
-      <workItem from="1676038302852" duration="8981000" />
-      <workItem from="1676049439119" duration="1853000" />
+      <workItem from="1675252122522" duration="1378000" />
+      <workItem from="1675284934064" duration="1511000" />
+      <workItem from="1675416243173" duration="2387000" />
+    </task>
+    <task id="LOCAL-00023" summary="Las clases de la agenda de Alejandro">
+      <created>1665760005272</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665760005272</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Modificación lo de alejandro">
+      <created>1665761440142</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665761440142</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Modificación lo de alejandro">
+      <created>1665761530437</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665761530437</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Falta todos jajvajav">
+      <created>1665766989897</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1665766989897</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Falta las ventanas mostrar todo y buscar.">
+      <created>1666032024068</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1666032024068</updated>
     </task>
     <task id="LOCAL-00028" summary="Mejorando la ventana mostrar todos.">
       <created>1666106164807</created>
@@ -376,70 +401,35 @@
       <option name="project" value="LOCAL" />
       <updated>1674581291618</updated>
     </task>
-    <task id="LOCAL-00068" summary="Terminado con exito.">
-      <created>1674581298416</created>
+    <task id="LOCAL-00068" summary="Apartado 09 terminado.">
+      <created>1675238920828</created>
       <option name="number" value="00068" />
       <option name="presentableId" value="LOCAL-00068" />
       <option name="project" value="LOCAL" />
-      <updated>1674581298416</updated>
+      <updated>1675238920828</updated>
     </task>
-    <task id="LOCAL-00069" summary="Estoy creando las carpetas y los archivos falta por realizar todos los apartados.">
-      <created>1674749751124</created>
+    <task id="LOCAL-00069" summary="Apartado 10 terminado.">
+      <created>1675253500171</created>
       <option name="number" value="00069" />
       <option name="presentableId" value="LOCAL-00069" />
       <option name="project" value="LOCAL" />
-      <updated>1674749751125</updated>
+      <updated>1675253500171</updated>
     </task>
-    <task id="LOCAL-00070" summary="He hecho hasta el apartado 04 ahora tengo que empezar el apartado 05.">
-      <created>1674837376786</created>
+    <task id="LOCAL-00070" summary="Apartado 10 terminado.">
+      <created>1675285208878</created>
       <option name="number" value="00070" />
       <option name="presentableId" value="LOCAL-00070" />
       <option name="project" value="LOCAL" />
-      <updated>1674837376787</updated>
+      <updated>1675285208878</updated>
     </task>
-    <task id="LOCAL-00071" summary="Apartado 01 terminado.">
-      <created>1675792214064</created>
+    <task id="LOCAL-00071" summary="Apartado 12 terminado. Me falta el 13">
+      <created>1675286456324</created>
       <option name="number" value="00071" />
       <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1675792214065</updated>
+      <updated>1675286456324</updated>
     </task>
-    <task id="LOCAL-00072" summary="Apartado 02 creado ejericico JQuery">
-      <created>1675792806458</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1675792806458</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Apartado 02 ya esta">
-      <created>1676045231736</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1676045231736</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Apartado 02 ya esta">
-      <created>1676045312700</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1676045312700</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Apartado 03 ya esta">
-      <created>1676047259515</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1676047259515</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Apartado 03 ya esta">
-      <created>1676049595341</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1676049595341</updated>
-    </task>
-    <option name="localTasksCounter" value="77" />
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,6 +447,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Formulario Terminado con exito." />
+    <MESSAGE value="Creacion de la diana horizontal." />
+    <MESSAGE value="Ejercicio Terminado con exito." />
     <MESSAGE value="Crecion Battle Ship" />
     <MESSAGE value="Tablero hecho" />
     <MESSAGE value="Aprender a utilizar la GUI de Intellig" />
@@ -476,12 +469,9 @@
     <MESSAGE value="He empezado en ejercicio 04 Expresiones regulares me falta terminar el javascript" />
     <MESSAGE value="Me faltan las comprobaciones" />
     <MESSAGE value="Terminado con exito." />
-    <MESSAGE value="Estoy creando las carpetas y los archivos falta por realizar todos los apartados." />
-    <MESSAGE value="He hecho hasta el apartado 04 ahora tengo que empezar el apartado 05." />
-    <MESSAGE value="Apartado 01 terminado." />
-    <MESSAGE value="Apartado 02 creado ejericico JQuery" />
-    <MESSAGE value="Apartado 02 ya esta" />
-    <MESSAGE value="Apartado 03 ya esta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apartado 03 ya esta" />
+    <MESSAGE value="Apartado 09 terminado." />
+    <MESSAGE value="Apartado 10 terminado." />
+    <MESSAGE value="Apartado 12 terminado. Me falta el 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apartado 12 terminado. Me falta el 13" />
   </component>
 </project>
