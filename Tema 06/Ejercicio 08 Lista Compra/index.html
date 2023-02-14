@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de la Compra</title>
+        <style>
+            body {
+                background-color: #ccc;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <form action="#">
+                <label for="anadir">Mi lista de la compra:</label>
+                <input type="text" name="anadir" id="anadir">
+                <input type="button" value="Añadir a la lista">
+            </form>
+
+            <ul id="listaCompra"></ul>
+
+            <p>Nota: Puedes eliminar elementos de la lista haciendo doble click sobre ellos</p>
+        </div>
+    </body>
+</html>
