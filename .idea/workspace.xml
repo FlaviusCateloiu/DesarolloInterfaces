@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Me falta el reloj.">
-      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 08 Lista Compra/style.css" afterDir="false" />
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="He cambiado unas cositas.">
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 09 Predecir Mejorado/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 09 Predecir Mejorado/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 09 Predecir Mejorado/musica.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 08 Lista Compra/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 08 Lista Compra/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesarolloInterfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesarolloInterfaces.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 08 Lista Compra/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 08 Lista Compra/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +42,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/flaars/IdeaProjects/DesarolloInterfaces/Tema 06/Ejercicio 05/Apartado 02&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/flaars/IdeaProjects/DesarolloInterfaces/Tema 06/Ejercicio 09 Predecir Mejorado",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tema 06/Ejercicio 09 Predecir Mejorado" />
       <recent name="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -96,13 +100,6 @@
       <workItem from="1676038302852" duration="8981000" />
       <workItem from="1676049439119" duration="1853000" />
       <workItem from="1676392401300" duration="654000" />
-    </task>
-    <task id="LOCAL-00028" summary="Mejorando la ventana mostrar todos.">
-      <created>1666106164807</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1666106164807</updated>
     </task>
     <task id="LOCAL-00029" summary="Me falta mostrar todos y buscar persona.">
       <created>1666107815942</created>
@@ -440,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676049595341</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="He cambiado unas cositas.">
+      <created>1676643710501</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1676643710502</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +462,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Crecion Battle Ship" />
     <MESSAGE value="Tablero hecho" />
     <MESSAGE value="Aprender a utilizar la GUI de Intellig" />
     <MESSAGE value="Terminada la primera ventana que es la principal." />
@@ -483,6 +486,7 @@
     <MESSAGE value="Apartado 02 creado ejericico JQuery" />
     <MESSAGE value="Apartado 02 ya esta" />
     <MESSAGE value="Apartado 03 ya esta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apartado 03 ya esta" />
+    <MESSAGE value="He cambiado unas cositas." />
+    <option name="LAST_COMMIT_MESSAGE" value="He cambiado unas cositas." />
   </component>
 </project>

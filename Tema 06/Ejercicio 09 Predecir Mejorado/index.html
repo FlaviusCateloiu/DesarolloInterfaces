@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 09. Predecir el futuro Mejorado</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <!-- Para que no haya bug con la musica abrir con Firefox. -->
+    <body>
+        <label for="nombre">Aqui puedes introducir tu nombre si deseas: </label>
+        <input type="text" id="nombre" name="nombre">
+        <input id="boton" type="button" value="Dime mi Futuro"><br><br>
+        <label for="frase">Introduce aque la frase que quieres añadir: </label>
+        <input type="text" id="frase" name="frase">
+        <input id="anyadir" type="button" value="Añadir Frase"><br><br>
+        <label id="bolt" for="resultado">Tu Futuro: </label>
+        <label id="resultado"></label>
+        <audio id="sound" src="musica.mp3" preload="auto" controls="none" style="display: none;"></audio>
+    </body>
+</html>
