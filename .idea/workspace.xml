@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Terminada con exito.">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Terminado el ejericico">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 08 Lista Compra/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 08 Lista Compra/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 09 Predecir Mejorado/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 09 Predecir Mejorado/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +96,6 @@
       <workItem from="1676038302852" duration="8981000" />
       <workItem from="1676049439119" duration="1853000" />
       <workItem from="1676392401300" duration="654000" />
-    </task>
-    <task id="LOCAL-00030" summary="Mostrar a todos las personas de la agenda ya a termindo.">
-      <created>1666109688765</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1666109688765</updated>
     </task>
     <task id="LOCAL-00031" summary="Terminado todo.">
       <created>1666110929692</created>
@@ -440,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676645906270</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Terminado el ejericico">
+      <created>1676646766898</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1676646766898</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aprender a utilizar la GUI de Intellig" />
     <MESSAGE value="Terminada la primera ventana que es la principal." />
     <MESSAGE value="Estoy haciendo que introduzca los barcos en el mapa." />
     <MESSAGE value="Algo nuevo tengo." />
@@ -483,6 +482,7 @@
     <MESSAGE value="Apartado 03 ya esta" />
     <MESSAGE value="He cambiado unas cositas." />
     <MESSAGE value="Terminada con exito." />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminada con exito." />
+    <MESSAGE value="Terminado el ejericico" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado el ejericico" />
   </component>
 </project>

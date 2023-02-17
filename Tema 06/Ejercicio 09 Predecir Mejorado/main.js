@@ -7,9 +7,16 @@ $(document).ready(function () {
         $("#resultado").text("Consultando a los espíritus…");
         await new Promise(r => setTimeout(r, 2000));
         if (nombre.match(/^[A-Za-zÀ-ÿ]+$/)) {
-            $("#resultado").text(nombre + ", " + arrayFrases[numeroAleatorio]);
+            window.localStorage.setItem("nombre", nombre);
+            $("#nombre").val("");
+            $("#resultado").text(window.localStorage.getItem("nombre") + ", " + arrayFrases[numeroAleatorio]);
         } else {
-            $("#resultado").text(arrayFrases[numeroAleatorio]);
+            //Comprobar que la cookie contiene algun nombre para saber si sacar el resultado con ese nombre o no.
+            if (window.localStorage.getItem("nombre") !== null) {
+                $("#resultado").text(window.localStorage.getItem("nombre") + ", " + arrayFrases[numeroAleatorio]);
+            } else {
+                $("#resultado").text(arrayFrases[numeroAleatorio]);
+            }
         }
     });
 
