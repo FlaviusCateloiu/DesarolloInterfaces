@@ -1,0 +1,40 @@
+:root {
+    --l: 300px
+}
+
+body {
+    background-color: #ccc;
+}
+
+#contenedor-reloj {
+    width: var(--l);
+    height: var(--l);
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+#fondo,
+#manecilla-segundo,
+#manecilla-minuto,
+#manecilla-hora,
+#puntos {
+    position: absolute;
+}
+
+#elementos-svg {
+    position: relative;
+}
+
+#fondo {
+    width: var(--l);
+    height: var(--l);
+    background: lightgray;
+    box-shadow: inset -5px -5px 5px 3px white,
+    inset 5px 5px 5px 3px black,
+    -5px -5px 5px 3px white,
+    5px 5px 5px 3px black;
+    border-radius: 50%;
+    opacity: 0.3;
+
+}

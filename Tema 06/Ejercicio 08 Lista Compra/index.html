@@ -3,84 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <title>Lista de la Compra</title>
-        <style>
-            :root {
-                --l: 300px
-            }
-
-            body {
-                background-color: #ccc;
-            }
-
-            #contenedor-reloj {
-                width: var(--l);
-                height: var(--l);
-                position: absolute;
-                bottom: 5%;
-                right: 5%;
-            }
-
-            #fondo,
-            #manecilla-segundo,
-            #manecilla-minuto,
-            #manecilla-hora,
-            #puntos {
-                position: absolute;
-            }
-
-            #elementos-svg {
-                position: relative;
-            }
-
-            #fondo {
-                width: var(--l);
-                height: var(--l);
-                background: lightgray;
-                box-shadow: inset -5px -5px 5px 3px white,
-                inset 5px 5px 5px 3px black,
-                -5px -5px 5px 3px white,
-                5px 5px 5px 3px black;
-                border-radius: 50%;
-                opacity: 0.3;
-
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="script.js"></script>
     </head>
     <body>
-        <div id="container">
-            <form action="#">
-                <label for="anadir">Mi lista de la compra:</label>
-                <input type="text" name="anadir" id="anadir">
-                <input type="button" value="Añadir a la lista" id="anadir-lista">
-                <input type="button" value="Resetear la Lista" id="resetear-lista">
-            </form>
+        <main>
+            <div id="container">
+                <form action="#">
+                    <label for="anadir">Mi lista de la compra:</label>
+                    <input type="text" name="anadir" id="anadir">
+                    <input type="button" value="Añadir a la lista" id="anadir-lista">
+                    <input type="button" value="Resetear la Lista" id="resetear-lista">
+                </form>
 
-            <ul id="listaCompra">
-            </ul>
+                <ul id="listaCompra">
+                </ul>
 
-            <p>Nota: Puedes eliminar elementos de la lista haciendo doble click sobre ellos</p>
-        </div>
-
-        <!-- Reloj Analogico. -->
-        <div id="contenedor-reloj">
-            <div id="fondo">
+                <p>Nota: Puedes eliminar elementos de la lista haciendo doble click sobre ellos</p>
             </div>
-            <div id="elementos-svg">
-                <svg id="puntos" width="300" height="300">
-                </svg>
-                <svg id="manecilla-hora" width="300" height="300">
-                    <line x1="150" y1="150" x2="150" y2="70" stroke="black" stroke-width="4" />
-                </svg>
-                <svg id="manecilla-minuto" width="300" height="300">
-                    <line x1="150" y1="150" x2="150" y2="30" stroke="black" stroke-width="4" />
-                </svg>
-                <svg id="manecilla-segundo" width="300" height="300">
-                    <line x1="150" y1="170" x2="150" y2="30" stroke="red" stroke-width="2" />
-                </svg>
+        </main>
+        <footer>
+            <!-- Reloj Analogico. -->
+            <div id="contenedor-reloj">
+                <div id="fondo">
+                </div>
+                <div id="elementos-svg">
+                    <svg id="puntos" width="300" height="300">
+                    </svg>
+                    <svg id="manecilla-hora" width="300" height="300">
+                        <line x1="150" y1="150" x2="150" y2="70" stroke="black" stroke-width="4" />
+                    </svg>
+                    <svg id="manecilla-minuto" width="300" height="300">
+                        <line x1="150" y1="150" x2="150" y2="30" stroke="black" stroke-width="4" />
+                    </svg>
+                    <svg id="manecilla-segundo" width="300" height="300">
+                        <line x1="150" y1="170" x2="150" y2="30" stroke="red" stroke-width="2" />
+                    </svg>
+                </div>
             </div>
-        </div>
+        </footer>
     </body>
 </html>
