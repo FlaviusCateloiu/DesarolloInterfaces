@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Terminado el ejericico">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Ya se puede guardar las cookies del nombre introducido me faltan las frases.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 09 Predecir Mejorado/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 09 Predecir Mejorado/main.js" afterDir="false" />
     </list>
@@ -96,13 +96,6 @@
       <workItem from="1676038302852" duration="8981000" />
       <workItem from="1676049439119" duration="1853000" />
       <workItem from="1676392401300" duration="654000" />
-    </task>
-    <task id="LOCAL-00031" summary="Terminado todo.">
-      <created>1666110929692</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1666110929692</updated>
     </task>
     <task id="LOCAL-00032" summary="Terminado de comentar.">
       <created>1666361144212</created>
@@ -440,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676646766898</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Ya se puede guardar las cookies del nombre introducido me faltan las frases.">
+      <created>1676648313808</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1676648313809</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Terminada la primera ventana que es la principal." />
     <MESSAGE value="Estoy haciendo que introduzca los barcos en el mapa." />
     <MESSAGE value="Algo nuevo tengo." />
     <MESSAGE value="Algo tengo xD" />
@@ -483,6 +482,7 @@
     <MESSAGE value="He cambiado unas cositas." />
     <MESSAGE value="Terminada con exito." />
     <MESSAGE value="Terminado el ejericico" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminado el ejericico" />
+    <MESSAGE value="Ya se puede guardar las cookies del nombre introducido me faltan las frases." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ya se puede guardar las cookies del nombre introducido me faltan las frases." />
   </component>
 </project>
