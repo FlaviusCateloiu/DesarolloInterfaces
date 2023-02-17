@@ -1,4 +1,11 @@
 $(document).ready(function () {
+    for (let i = 0; i < window.localStorage.length; i++) {
+        $("#listaCompra").append("<li>" + window.localStorage.getItem("product" + i) + "</li>");
+        $("#listaCompra li").dblclick(function () {
+            this.remove();
+        });
+    }
+
     $("#anadir-lista").click(function () {
         let texto = $("#anadir").val();
         if (texto.match(/^.+$/)) {
