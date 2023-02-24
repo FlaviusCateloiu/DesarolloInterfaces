@@ -2,8 +2,10 @@ $(document).ready(function () {
 
     if (window.localStorage.length === 0) {
         generarGrafoTension(0);
+        generarGrafoPulsaciones(0);
     } else {
-        generarGrafoTension(window.localStorage.length - 1);
+        generarGrafoTension( window.localStorage.length - 1);
+        generarGrafoPulsaciones(window.localStorage.length - 1);
     }
 
     $("#enviar").click(function () {
@@ -54,25 +56,55 @@ $(document).ready(function () {
                 window.localStorage.setItem("tensionDias" + numberNewCockies, tensionDias);
                 window.localStorage.setItem("pulsaciones" + numberNewCockies, pulsaciones);
             }
+            generarGrafoTension(window.localStorage.length - 1);
+            generarGrafoPulsaciones(window.localStorage.length - 1);
         }
     });
 });
 
-function generarGrafoTension(cookiesLog) {
+function generarGrafoTension(cookiesLong) {
     let xArray = [];
-    let yArray = [];
+    let yArray1 = [];
+    let yArray2 = [];
 
-    let data = [{
-        x: xArray,
-        y: yArray,
-        mode: "lines",
-    }];
+    for (let i = 0; i < (cookiesLong / 5); i++) {
+        yArray1.push(window.localStorage.getItem("tensionSis" + i));
+        yArray2.push(window.localStorage.getItem("tensionDias" + i));
+        xArray.push(i + 1);
+    }
+
+    let data = [
+        {x: xArray, y: yArray1, mode: "markers"},
+        {x: xArray, y: yArray2, mode: "markers"}
+    ];
 
     let layout = {
-        xaxis: {range: [60, 200] , title: "Tensión Sistólica"},
-        yaxis: {range: [40, 120], title: "Tensión Diastólica"},
+        xaxis: {range: [0, 30], title: "Tiempo"},
+        yaxis: {range: [40, 200], title: "Tensión"},
         title: "Tensión Sistólica vs Diastólica"
     };
 
     Plotly.newPlot("grafo-tension", data, layout);
+}
+
+function generarGrafoPulsaciones(cookiesLong) {
+    let xArray = [];
+    let yArray = [];
+
+    for (let i = 0; i < (cookiesLong / 5); i++) {
+        yArray.push(window.localStorage.getItem("tensionSis" + i));
+        xArray.push(i + 1);
+    }
+
+    let data = [
+        {x: xArray, y: yArray, mode: "markers"}
+    ];
+
+    let layout = {
+        xaxis: {range: [0, 30], title: "Tiempo"},
+        yaxis: {range: [40, 200], title: "Pulsaciones"},
+        title: "Tensión Sistólica vs Diastólica"
+    };
+
+    Plotly.newPlot("grafo-pulsaciones", data, layout);
 }
