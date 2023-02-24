@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Me falta la parte de las frases que salgan todas.">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Lo tengo.">
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 10 Aplicación Registro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 10 Aplicación Registro/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 09 Predecir Mejorado/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 09 Predecir Mejorado/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesarolloInterfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesarolloInterfaces.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +20,9 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -98,21 +100,9 @@
       <workItem from="1676392401300" duration="654000" />
       <workItem from="1676905385264" duration="16000" />
       <workItem from="1676916241950" duration="22000" />
-      <workItem from="1676995620575" duration="2204000" />
-    </task>
-    <task id="LOCAL-00033" summary="Empezando el ejercicio.">
-      <created>1666366826762</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1666366826762</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Empezando el ejercicio.">
-      <created>1666366849793</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1666366849793</updated>
+      <workItem from="1676995620575" duration="5675000" />
+      <workItem from="1677086328032" duration="50000" />
+      <workItem from="1677249234121" duration="6460000" />
     </task>
     <task id="LOCAL-00035" summary="Faltan las comprobaciones de los demas campos.">
       <created>1666637013200</created>
@@ -443,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676657076385</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Flata quitar frases.">
+      <created>1676997921388</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1676997921389</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Lo tengo.">
+      <created>1677002556885</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1677002556885</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,8 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Algo nuevo tengo." />
-    <MESSAGE value="Algo tengo xD" />
     <MESSAGE value="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco." />
     <MESSAGE value="Tengo cositas" />
     <MESSAGE value="Terminado" />
@@ -486,6 +488,8 @@
     <MESSAGE value="Terminado el ejericico" />
     <MESSAGE value="Ya se puede guardar las cookies del nombre introducido me faltan las frases." />
     <MESSAGE value="Me falta la parte de las frases que salgan todas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Me falta la parte de las frases que salgan todas." />
+    <MESSAGE value="Flata quitar frases." />
+    <MESSAGE value="Lo tengo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lo tengo." />
   </component>
 </project>
