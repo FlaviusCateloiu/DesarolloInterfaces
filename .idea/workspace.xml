@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tengo que hacer el grafo">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tengo que hacer el grafo de lo demas.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 10 Aplicación Registro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 10 Aplicación Registro/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 10 Aplicación Registro/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 10 Aplicación Registro/script.js" afterDir="false" />
@@ -101,14 +101,7 @@
       <workItem from="1676916241950" duration="22000" />
       <workItem from="1676995620575" duration="5675000" />
       <workItem from="1677086328032" duration="50000" />
-      <workItem from="1677249234121" duration="10304000" />
-    </task>
-    <task id="LOCAL-00036" summary="Falta guardar en un archivo.">
-      <created>1666712729725</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1666712729725</updated>
+      <workItem from="1677249234121" duration="10912000" />
     </task>
     <task id="LOCAL-00037" summary="Falta guardar en un archivo.">
       <created>1666714792651</created>
@@ -446,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677257045015</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Tengo que hacer el grafo de lo demas.">
+      <created>1677262885429</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1677262885429</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tengo cositas" />
     <MESSAGE value="Terminado" />
     <MESSAGE value="Subido lo de html" />
     <MESSAGE value="Terminado el ejercicio sencillo de JavaScript" />
@@ -489,6 +488,7 @@
     <MESSAGE value="Flata quitar frases." />
     <MESSAGE value="Lo tengo." />
     <MESSAGE value="Tengo que hacer el grafo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tengo que hacer el grafo" />
+    <MESSAGE value="Tengo que hacer el grafo de lo demas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tengo que hacer el grafo de lo demas." />
   </component>
 </project>
