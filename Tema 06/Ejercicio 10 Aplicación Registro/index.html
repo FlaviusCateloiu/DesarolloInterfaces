@@ -25,18 +25,19 @@
             <input id="peso" type="number" name="peso" placeholder="0" min="1"><br><br>
 
             <label for="tension-sistolica">Tensión Sistólica: </label>
-            <input id="tension-sistolica" type="number" name="tension-sistolica" placeholder="0" min="1"><br><br>
+            <input id="tension-sistolica" type="number" name="tension-sistolica" placeholder="0" min="60"><br><br>
 
             <label for="tension-diastolica">Tensión Diastólica: </label>
-            <input id="tension-diastolica" type="number" name="tension-diastolica" placeholder="0" min="1"><br><br>
+            <input id="tension-diastolica" type="number" name="tension-diastolica" placeholder="0" min="60"><br><br>
 
             <label for="pulsacion">Pulsaciones: </label>
-            <input id="pulsacion" type="number" name="pulsacion" placeholder="0" min="1"><br><br>
+            <input id="pulsacion" type="number" name="pulsacion" placeholder="0" min="60" max="120"><br><br>
 
             <input id="enviar" type="button" value="Enviar">
         </form>
 
         <div id="grafo-tension"></div>
         <div id="grafo-pulsaciones"></div>
+        <div id="grafo-peso-edad"></div>
     </body>
 </html>

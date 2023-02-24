@@ -3,9 +3,11 @@ $(document).ready(function () {
     if (window.localStorage.length === 0) {
         generarGrafoTension(0);
         generarGrafoPulsaciones(0);
+        generarGrafoPesoEdad(0);
     } else {
         generarGrafoTension( window.localStorage.length - 1);
         generarGrafoPulsaciones(window.localStorage.length - 1);
+        generarGrafoPesoEdad(window.localStorage.length - 1);
     }
 
     $("#enviar").click(function () {
@@ -27,15 +29,15 @@ $(document).ready(function () {
             console.log("Tienes que introducir un peso positivo.");
             correct = false;
         }
-        if (tensionSis <= 0) {
+        if (tensionSis < 60) {
             console.log("Tienes que introducir una Tensión Sistólica positiva.");
             correct = false;
         }
-        if (tensionDias <= 0) {
+        if (tensionDias < 60) {
             console.log("Tienes que introducir una Tensión Diastólica positiva.");
             correct = false;
         }
-        if (pulsaciones <= 0) {
+        if (pulsaciones < 60) {
             console.log("Tienes que introducir Pulsaciones positiva.");
             correct = false;
         }
@@ -58,6 +60,7 @@ $(document).ready(function () {
             }
             generarGrafoTension(window.localStorage.length - 1);
             generarGrafoPulsaciones(window.localStorage.length - 1);
+            generarGrafoPesoEdad(window.localStorage.length - 1);
         }
     });
 });
@@ -107,4 +110,26 @@ function generarGrafoPulsaciones(cookiesLong) {
     };
 
     Plotly.newPlot("grafo-pulsaciones", data, layout);
+}
+
+function generarGrafoPesoEdad(cookiesLong) {
+    let xArray = [];
+    let yArray = [];
+
+    for (let i = 0; i < (cookiesLong / 5); i++) {
+        xArray.push(window.localStorage.getItem("edad" + i));
+        yArray.push(window.localStorage.getItem("peso" + i));
+    }
+
+    let data = [
+        {x: xArray, y: yArray, mode: "markers"}
+    ];
+
+    let layout = {
+        xaxis: {range: [0, 160], title: "Edad"},
+        yaxis: {range: [0, 200], title: "Peso"},
+        title: "Peso vs Edad"
+    };
+
+    Plotly.newPlot("grafo-peso-edad", data, layout);
 }
