@@ -92,7 +92,7 @@ function generarGrafoPulsaciones(cookiesLong) {
     let yArray = [];
 
     for (let i = 0; i < (cookiesLong / 5); i++) {
-        yArray.push(window.localStorage.getItem("tensionSis" + i));
+        yArray.push(window.localStorage.getItem("pulsaciones" + i));
         xArray.push(i + 1);
     }
 
@@ -103,7 +103,7 @@ function generarGrafoPulsaciones(cookiesLong) {
     let layout = {
         xaxis: {range: [0, 30], title: "Tiempo"},
         yaxis: {range: [40, 200], title: "Pulsaciones"},
-        title: "Tensión Sistólica vs Diastólica"
+        title: "Pulsaciones al Tiempo"
     };
 
     Plotly.newPlot("grafo-pulsaciones", data, layout);
