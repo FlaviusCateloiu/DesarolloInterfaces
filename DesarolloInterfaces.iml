@@ -32,5 +32,7 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="p5.js" level="application" />
     <orderEntry type="library" name="plotly-latest" level="application" />
+    <orderEntry type="library" name="jquery-3.6.0" level="application" />
+    <orderEntry type="library" name="jquery-ui" level="application" />
   </component>
 </module>

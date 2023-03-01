@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Ya se puede guardar las cookies del nombre introducido me faltan las frases.">
+    <list default="true" id="a45eb471-0643-4a2d-9dc5-ae9e760540fb" name="Changes" comment="Tengo que hacer el grafo de lo demas.">
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 11 JQuery UI/Apartado01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 11 JQuery UI/Apartado01/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 11 JQuery UI/Apartado02/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 10 Aplicación Registro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 10 Aplicación Registro/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 06/Ejercicio 10 Aplicación Registro/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 06/Ejercicio 10 Aplicación Registro/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesarolloInterfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesarolloInterfaces.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +21,9 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -66,6 +68,7 @@
       <recent name="$PROJECT_DIR$/Tema 06/Ejercicio 05/Apartado 02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tema 06/Ejercicio 11 JQuery UI/Apartado01" />
       <recent name="$PROJECT_DIR$/Tema 06/Ejercicio 03 Arrays y condicionales/Ejercicio 01" />
       <recent name="$PROJECT_DIR$/Tema 02/Ejercicio03FicherosMasVentanas/Ejercicio5.3" />
     </key>
@@ -97,41 +100,12 @@
       <workItem from="1676038302852" duration="8981000" />
       <workItem from="1676049439119" duration="1853000" />
       <workItem from="1676392401300" duration="654000" />
-    </task>
-    <task id="LOCAL-00032" summary="Terminado de comentar.">
-      <created>1666361144212</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1666361144212</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Empezando el ejercicio.">
-      <created>1666366826762</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1666366826762</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Empezando el ejercicio.">
-      <created>1666366849793</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1666366849793</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Faltan las comprobaciones de los demas campos.">
-      <created>1666637013200</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1666637013200</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Falta guardar en un archivo.">
-      <created>1666712729725</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1666712729725</updated>
+      <workItem from="1676905385264" duration="16000" />
+      <workItem from="1676916241950" duration="22000" />
+      <workItem from="1676995620575" duration="5675000" />
+      <workItem from="1677086328032" duration="50000" />
+      <workItem from="1677249234121" duration="10912000" />
+      <workItem from="1677680307483" duration="3957000" />
     </task>
     <task id="LOCAL-00037" summary="Falta guardar en un archivo.">
       <created>1666714792651</created>
@@ -441,7 +415,42 @@
       <option name="project" value="LOCAL" />
       <updated>1676648313809</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Me falta la parte de las frases que salgan todas.">
+      <created>1676657076385</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1676657076385</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Flata quitar frases.">
+      <created>1676997921388</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1676997921389</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Lo tengo.">
+      <created>1677002556885</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1677002556885</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Tengo que hacer el grafo">
+      <created>1677257045015</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1677257045015</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Tengo que hacer el grafo de lo demas.">
+      <created>1677262885429</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1677262885429</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,11 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Estoy haciendo que introduzca los barcos en el mapa." />
-    <MESSAGE value="Algo nuevo tengo." />
-    <MESSAGE value="Algo tengo xD" />
-    <MESSAGE value="Tengo algo con las coordenadas ahora voy a hacer que introduzca la longitud del barco." />
-    <MESSAGE value="Tengo cositas" />
     <MESSAGE value="Terminado" />
     <MESSAGE value="Subido lo de html" />
     <MESSAGE value="Terminado el ejercicio sencillo de JavaScript" />
@@ -484,6 +488,11 @@
     <MESSAGE value="Terminada con exito." />
     <MESSAGE value="Terminado el ejericico" />
     <MESSAGE value="Ya se puede guardar las cookies del nombre introducido me faltan las frases." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ya se puede guardar las cookies del nombre introducido me faltan las frases." />
+    <MESSAGE value="Me falta la parte de las frases que salgan todas." />
+    <MESSAGE value="Flata quitar frases." />
+    <MESSAGE value="Lo tengo." />
+    <MESSAGE value="Tengo que hacer el grafo" />
+    <MESSAGE value="Tengo que hacer el grafo de lo demas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tengo que hacer el grafo de lo demas." />
   </component>
 </project>
